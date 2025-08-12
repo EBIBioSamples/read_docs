@@ -1,2 +1,2 @@
-Search
-=======
+Search BioSamples Interactively
+===============================

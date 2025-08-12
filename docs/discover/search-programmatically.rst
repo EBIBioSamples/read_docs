@@ -1,2 +1,2 @@
-Search programmatically
-=======================
+Search BioSamples Programmatically
+==================================
