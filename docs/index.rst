@@ -6,6 +6,11 @@ Please use the links to find instructions specific to your needs.
 If you're completely new to BioSamples, you can see an introductory webinar at the bottom of the page.
 
 
+.. toctree::
+    :caption: About BioSamples
+    :maxdepth: 1
+
+    about
 
 .. toctree::
     :caption: BioSamples Sample Registration
@@ -23,7 +28,9 @@ If you're completely new to BioSamples, you can see an introductory webinar at t
     discover/search-programmatically
 
 .. toctree::
-    :caption: About BioSamples
+    :caption: FAQ and Tips
     :maxdepth: 1
 
-    about
+    FAQ/FAQ
+    FAQ/cookbook
+    FAQ/tips
