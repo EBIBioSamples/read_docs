@@ -1,4 +1,4 @@
-How to register samples programmatically
+How to register Samples programmatically
 ========================================
 
 

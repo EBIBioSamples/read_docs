@@ -1,4 +1,4 @@
-How to register samples interactively
+How to register Samples interactively
 =====================================
 
-How to register samples interactively
+How to register Samples interactively
