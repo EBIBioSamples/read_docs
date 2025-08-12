@@ -21,3 +21,9 @@ If you're completely new to BioSamples, you can see an introductory webinar at t
 
     discover/search-interactively
     discover/search-programmatically
+
+.. toctree::
+    :caption: About BioSamples
+    :maxdepth: 1
+
+    about
