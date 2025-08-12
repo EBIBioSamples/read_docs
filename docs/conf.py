@@ -30,7 +30,7 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
-html_logo = 'BioSamples_logo.png'
+html_logo = 'BioSamples_logo_rtd.png'
 
 
 # -- Options for EPUB output
