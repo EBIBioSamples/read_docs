@@ -28,4 +28,9 @@ The interactive file upload service is recommended, unless you are already famil
     general-guide/accession-numbers
 
 
+.. toctree::
+    :caption: Registration Services
+    :maxdepth: 1
 
+    registration-services/interactive-reg
+    registration-services/programmatic-reg
