@@ -33,11 +33,7 @@ The sample relationship is submitted to Biosamples by providing the source, type
 When the submitter provides relationship information in one sample, the reverse relationships in corresponding samples will be generated automatically. BioSamples doesn’t validate the type, direction, or the logic of the relationships.
 BioSamples currently supports four types of sample relationships
 
-Relationship types
-- Reverse relationships
-- Description
-- derived from
-- derived from (reverse)
+
 
 .. list-table:: Title
    :widths: 25 25 50
@@ -52,12 +48,15 @@ Relationship types
         - *Tissue samples derived from donor samples*
         - *Cell line samples derived from tissue samples*
         - *Microbial samples derived from environmental samples*
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
+   * - ``same as``
+     - ``same as``
+     - *Sample A is the same as Sample B. This can be used to link duplicated samples.*
+   * - ``has member``
+     - ``has member (reverse)``
+     - *Sample A is a member of Sample group G. BioSamples create a sample group for each sampleTab submission \* . It's also possible to put patient samples as a sample group.*
+   * - ``child of``
+     - ``child of (reverse)``
+     - *Sample A is the child of Sample B. E.g.*
+        - *Patient A is the child of Patient B*
 
-
-
-Sample A is derived from Sample B.
-
-For samples in the same project or study, it is recommended to provide the project or study information as an attribute, rather than providing has member relationships to avoid duplication.
+For samples in the same project or study, it is recommended to provide the project or study information as an attribute, rather than providing ``has member`` relationships to avoid duplication.
