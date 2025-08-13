@@ -1,2 +1,4 @@
-Request Private BioSamples Accessions
+How to Request Private Accessions
 =====================================
+
+

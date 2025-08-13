@@ -1,4 +1,4 @@
-Update existing BioSamples Samples
+How to Update Existing Samples
 ==================================
 
 
