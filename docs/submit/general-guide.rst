@@ -19,8 +19,11 @@ BioSamples also allows a variety of other features, including
 
 The interactive file upload service is recommended, unless you are already familiar with programmatic submissions.
 
+
+Getting Started
+===============
+
 .. toctree::
-    :caption: Getting Started
     :maxdepth: 1
 
     general-guide/registration
@@ -28,8 +31,10 @@ The interactive file upload service is recommended, unless you are already famil
     general-guide/accession-numbers
 
 
+Registration Services
+=====================
+
 .. toctree::
-    :caption: Registration Services
     :maxdepth: 1
 
     registration-services/interactive-reg
