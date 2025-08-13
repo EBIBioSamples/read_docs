@@ -18,7 +18,7 @@ Sample Checklists
 
 To ensure that each sample is registered with at least a minimum amount of metadata, ENA provides GSC-based `Sample Checklists <https://www.ebi.ac.uk/ena/browser/checklists>`_. These provide a set of minimal attributes which you should provide for a given sample. Registering a BioSample with an ENA checklist is a requirement for submitting data using this sample to ENA.
 
-These checklists are developed in collaboration with different research communities to ensure that they are relevant and realistic for their context. Explore the full range of sample checklists here. Note that each checklist provides a set of mandatory values which must always be provided, as well as recommended values which should be provided wherever possible, and optional values which are suggested values not relevant to every case. When registering a sample, it is important to choose the most relevant sample checklist available and provide the most metadata possible.
+These checklists are developed in collaboration with different research communities to ensure that they are relevant and realistic for their context. Note that each checklist provides a set of mandatory values which must always be provided, as well as recommended values which should be provided wherever possible, and optional values which are suggested values not relevant to every case. When registering a sample, it is important to choose the most relevant sample checklist available and provide the most metadata possible.
 
 If you cannot provide a value for a mandatory field within a checklist, please use one of the `INDSC accepted terms <https://ena-docs.readthedocs.io/en/latest/submit/samples/missing-values.html>`_ for missing value reporting.
 
@@ -38,6 +38,24 @@ Relationship types
 - Description
 - derived from
 - derived from (reverse)
+
+.. list-table:: Title
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - **Relationship types**
+     - **Reverse relationships**
+     - **Description**
+   * - ``derived from``
+     - ``derived from (reverse)``
+     - *Sample A is derived from Sample B. E.g.*
+        - *Tissue samples derived from donor samples*
+        - *Cell line samples derived from tissue samples*
+        - *Microbial samples derived from environmental samples*
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+
 
 
 Sample A is derived from Sample B.

@@ -14,7 +14,7 @@ If you're completely new to BioSamples, you can see an introductory webinar at t
 
 .. toctree::
     :caption: BioSamples Sample Registration
-    :maxdepth: 2
+    :maxdepth: 1
 
     submit/general-guide
     submit/interactively
