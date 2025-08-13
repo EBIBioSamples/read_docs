@@ -1,5 +1,5 @@
 Register a WEBIN Submission Account
-=============================
+===================================
 
 Before you can submit data to BioSamples you must register a Webin submission account.
 
