@@ -19,6 +19,8 @@ If you're completely new to BioSamples, you can see an introductory webinar at t
     submit/general-guide
     submit/interactively
     submit/programmatically
+    submit/request-accessions
+    submit/update-samples
 
 .. toctree::
     :caption: BioSamples Sample Discovery
