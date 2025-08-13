@@ -1,4 +1,4 @@
-BioSamples metadata model
+BioSamples Metadata Model
 =========================
 
 The BioSamples archive stores metadata about samples, such as collection date, location, and organism type, to aid in their discovery and re-analysis. These samples can be associated with data derived from them, which is deposited in other archives such as ENA. Samples must first be submitted to BioSamples prior to submitting data to ENA.
