@@ -53,7 +53,7 @@ BioSamples currently supports four types of sample relationships
      - *Sample A is the same as Sample B. This can be used to link duplicated samples.*
    * - ``has member``
      - ``has member (reverse)``
-     - *Sample A is a member of Sample group G. BioSamples create a sample group for each sampleTab submission \* . It's also possible to put patient samples as a sample group.*
+     - *Sample A is a member of Sample group G. BioSamples create a sample group for each sampleTab submission\*. It's also possible to put patient samples as a sample group.*
    * - ``child of``
      - ``child of (reverse)``
      - *Sample A is the child of Sample B. E.g.*
