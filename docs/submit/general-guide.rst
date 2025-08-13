@@ -12,9 +12,9 @@ BioSamples allows sample registration via two routes, each of which is appropria
 - **Programmatic Submissions** involve preparing your submissions as JSON files before submitting them to BioSamples via the JSON API.
 
 BioSamples also allows a variety of other features, including
-- Updating `existing samples <update-samples.html>`_
-- Obtaining `private accessions prior to sample registration <request-accessions.html>`_
-- Validating `Samples using the JSON API <programmatically/validate.html>`_
+- `Updating existing samples <update-samples.html>`_
+- `Obtaining private accessions prior to sample registration <request-accessions.html>`_
+- `Validating Samples using the JSON API <programmatically/validate.html>`_
 
 
 The interactive file upload service is recommended, unless you are already familiar with programmatic submissions.
