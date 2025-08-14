@@ -13,3 +13,8 @@ You must add at least one contact to the account. Names added here will be autom
 
 **Note for programmatic submissions:** Programmatic submissions require an authentication token for communicating with the JSON API. See instructions `here <../programmatically/authentication.html>`_
 
+**Note for programmatic submissions:** Programmatic submissions require an authentication token for communicating with the JSON API. See instructions here.
+
+:doc: `here <../programmatically/authentication>`
+
+:doc:`here <../programmatically/authentication>`
