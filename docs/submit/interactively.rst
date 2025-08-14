@@ -7,7 +7,7 @@ If you want to create a process for syncing samples programmatically, refer to t
 Requirements
 ------------
 
-You will need a WEBIN submission account to proceed with this route. Please refer to `'Registering a WEBIN Submission Account' <general-guide/registration.html`_ for more information.
+You will need a WEBIN submission account to proceed with this route. Please refer to `'Registering a WEBIN Submission Account' <general-guide/registration.html>`_ for more information.
 
 
 Overview
@@ -27,7 +27,7 @@ In the next section we break this down into individual steps.
 Metadata Standards
 ------------------
 
-BioSamples uses `Sample Checklists <general-guide/metadata-model.html`_ to ensure that each sample is registered with at least a minimum amount of metadata. For more information, see the `BioSamples Metadata Model <general-guide/metadata-model.html>`_ page.
+BioSamples uses `Sample Checklists <general-guide/metadata-model.html>`_ to ensure that each sample is registered with at least a minimum amount of metadata. For more information, see the `BioSamples Metadata Model <general-guide/metadata-model.html>`_ page.
 **Please note that registering a BioSample with an ENA checklist is a requirement for submitting data using this sample to ENA.**
 
 See here for the collection of ENA GSC-based `Sample Checklists <https://www.ebi.ac.uk/ena/browser/checklists>`_.
@@ -35,7 +35,7 @@ See here for the collection of ENA GSC-based `Sample Checklists <https://www.ebi
 
 Completing the template spreadsheet
 -----------------------------------
-The file format for uploading sample metadata to BioSamples is `ISA-Tab<https://isa-specs.readthedocs.io/en/latest/isatab.html>`_, a tab delimited file format (TSV).
+The file format for uploading sample metadata to BioSamples is `ISA-Tab <https://isa-specs.readthedocs.io/en/latest/isatab.html>`_, a tab delimited file format (TSV).
 Although ISA-Tab is specifically for Investigation, Study and Assay data, we have tried to use the sample table format specified in the ISA-Tab specification.
 
 ISA-Tab requires columns to be in specific orders in order to be successfully validated and processed. See the table below.
