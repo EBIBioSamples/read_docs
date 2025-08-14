@@ -13,6 +13,8 @@ Samples only have a few mandatory fields:
 
 However, partners should submit rich metadata where possible as this will enable discovery and reuse of registered samples. BioSamples allows submitters to add as many custom metadata attributes as desired.
 
+
+
 Sample Checklists
 -----------------
 
@@ -24,6 +26,8 @@ Note that each checklist provides a set of mandatory values which must always be
 and optional values which are suggested values not relevant to every case. When registering a sample, it is important to choose the most relevant sample checklist available and provide the most metadata possible.
 
 If you cannot provide a value for a mandatory field within a checklist, please use one of the `INDSC accepted terms <https://ena-docs.readthedocs.io/en/latest/submit/samples/missing-values.html>`_ for missing value reporting.
+
+
 
 
 Sample Relationships in BioSamples
