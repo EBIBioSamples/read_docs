@@ -11,9 +11,5 @@ Fill out the boxes, giving details of the group and centre for which you are sub
 
 You must add at least one contact to the account. Names added here will be automatically included in certain types of submission, including those which are processed into the EMBL Flat File format. In addition, when contacting the helpdesk certain requests will only be considered from people named as account contacts. It is therefore advisable to add new members of your team to this account if they are likely to participate in submission activities.
 
-**Note for programmatic submissions:** Programmatic submissions require an authentication token for communicating with the JSON API. See instructions here.
-
-
-
-
+**Note for programmatic submissions:** Programmatic submissions require an authentication token for communicating with the JSON API. See instructions `here <../programmatically/authentication.html>`_
 
