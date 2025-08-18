@@ -8,5 +8,9 @@ How to Register Samples Programmatically
 
     programmatically/overview
     programmatically/authentication
+    programmatically/links
+    programmatically/API-root
+    programmatically/submit
     programmatically/validate
+    programmatically/certification
 
