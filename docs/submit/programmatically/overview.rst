@@ -17,7 +17,7 @@ Link naming conventions:
 - Individual resources: named with singular type name (e.g., `sample`).
 - Collections: named with camelCased plurals (e.g., `samples`, `curations`, `curationLinks`).
 
-Refer to the `Links <links>`_ section for a list of all available API links.
+Refer to the `Links <links.html>`_ section for a list of all available API links.
 
 Content negotiation for data representation
 *******************************************
