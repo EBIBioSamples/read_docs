@@ -3,13 +3,6 @@ API Root
 
 The API root provides access to all resources available in BioSamples via hypermedia links (HAL).
 
-Contents
---------
-
-- **Request**
-- **Response**
-- **Links Reference**
-
 Request
 -------
 
