@@ -7,10 +7,7 @@ Overview
 --------
 
 We support ENA Webin authentication for access and authorization, via EMBL-EBI’s European Nucleotide Archive (ENA) **Webin authentication** service.
-
-## Authentication API documentation
-
-Please refer to ENA Webin authentication **API documentation**.
+For more information please refer to ENA Webin authentication **API documentation**.
 
 Webin authentication is token based—once you have an account, you can log in with your username and password to receive a **token** (see [jwt.io](https://jwt.io) for more info). This token contains all the information needed to identify who you are and what data you're allowed to access. You present this token to the API every time you make a request.
 
@@ -49,7 +46,7 @@ You can obtain a Webin authentication token by running the following `curl` comm
 
 This command returns the Webin authentication token.
 
-### Example response
+Example response
 
 .. code-block:: text
 
