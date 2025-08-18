@@ -61,9 +61,9 @@ ISA-Tab requires columns to be in specific orders in order to be successfully va
      - Mandatory
      - Mandatory
    * - ``Characteristics[<name>]``
-     - Sample attributes. You may include multiple characteristics. **Each Characteristics column must be followed by matching ``Term Source REF`` and ``Term Accession Number`` columns.** ``Characteristics[Organism]`` is mandatory, and its value must be valid.
-     - Optional (repeating); **``Characteristics[Organism]`` is Mandatory**
-     - Optional; **for ``Characteristics[Organism]`` the value is Mandatory**
+     - Sample attributes. You may include multiple characteristics. **Each Characteristics column must be followed by matching** ``Term Source REF`` and ``Term Accession Number`` columns. ``Characteristics[Organism]`` is mandatory, and its value must be valid.
+     - Optional (repeating); ``Characteristics[Organism]`` is Mandatory
+     - Optional; for ``Characteristics[Organism]`` the value is Mandatory
    * - ``Term Source REF``
      - Controlled vocabulary/ontology providing the term (e.g. NCBITAXON, BTO). Must follow each Characteristics column.
      - Mandatory
@@ -133,12 +133,12 @@ ISA-Tab requires columns to be in specific orders in order to be successfully va
      - Optional (new) / Mandatory (updates)
      - Optional (new) / Mandatory (updates)
 
-Example `tsv template spreadsheets <templates>`_ for interactive submission can be found here.
+Example `tsv template spreadsheets <https://github.com/EBIBioSamples/read_docs/tree/main/docs/submit/templates>`_ for interactive submission can be found here.
 
 
 Key Points to Consider for Templates
 *************************************
-1. Every Characteristics you choose to provide as column header in the TSV file must have Term Source Ref and Term Accession Number column headers following it. While filling up the data (rows) in the file, you may choose to provide blank values if you don’t have the information for it. In the below example, you can always opt to not provide the Term Source Ref and Term Accession Number but the column headers must be present as in the example below
+1. Every ``Characteristics`` you choose to provide as column header in the TSV file must have ``Term Source Ref`` and ``Term Accession Number`` column headers following it. While filling up the data (rows) in the file, you may choose to provide blank values if you don’t have the information for it. In the below example, you can always opt to not provide the Term Source Ref and Term Accession Number but the column headers must be present as in the example below
 
 
 .. list-table::
@@ -148,7 +148,7 @@ Key Points to Consider for Templates
      - **Term Source REF**
      - **Term Accession Number**
 
-2. All samples might not have all the information as per the columns specified in the TSV file, please remember not to miss the tab delimiter if you are not specifying any value. For Example, if you are not specifying Term Source Ref and Term Accession Number for any/ all characteristics please don’t forget you need to provide the tab delimiter. This will help us to parse the file correctly.
+2. All samples might not have all the information as per the columns specified in the TSV file, please remember not to miss the tab delimiter if you are not specifying any value. For example, if you are not specifying ``Term Source Ref`` and ``Term Accession Number`` for any/ all characteristics please don’t forget you need to provide the tab delimiter. This will help us to parse the file correctly.
 
 .. list-table::
    :header-rows: 1
