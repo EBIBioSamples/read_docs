@@ -133,6 +133,22 @@ ISA-Tab requires columns to be in specific orders in order to be successfully va
      - Optional (new) / Mandatory (updates)
      - Optional (new) / Mandatory (updates)
 
-Example tsv template spreadsheets for interactive submission can be found here.
+Example `tsv template spreadsheets <templates>`_ for interactive submission can be found here.
 
+
+Key Points to Consider for Templates
+*************************************
+Every Characteristics you choose to provide as column header in the TSV file must have Term Source Ref and Term Accession Number column headers following it. While filling up the data (rows) in the file, you may choose to provide blank values if you don’t have the information for it. In the below example, you can always opt to not provide the Term Source Ref and Term Accession Number but the column headers must be present as in the example below
+
+Example : Characteristics[Organism]	Term Source REF	Term Accession Number
+All samples might not have all the information as per the columns specified in the TSV file, please remember not to miss the tab delimiter if you are not specifying any value. For Example, if you are not specifying Term Source Ref and Term Accession Number for any/ all characteristics please don’t forget you need to provide the tab delimiter. This will help us to parse the file correctly.
+
+Example : Characteristics[Organism]	Term Source REF	Term Accession Number
+          Homo sapiens
+
+We expect all sample names to be unique in the file
+
+The uploader sends back a file for download with the submission result, in case of same time uploads where the file size is less than 20 KBytes and the file has less than 200 samples, the result file will have the sample metadata and the accessions. In case of queued uploads where the file size is greater than 20 KBytes or the file has more than 200 samples the result file will have a unique submission ID for the upload. The unique submission ID can be used to get the result of the upload using the View Submissions tab.
+
+If you are looking to update existing samples that have been uploaded, you can use the file returned to you after your submission. Please remember to remove the receipt section
 
