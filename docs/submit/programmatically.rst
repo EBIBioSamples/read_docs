@@ -6,6 +6,7 @@ How to Register Samples Programmatically
     :caption: Programmatic Submissions
     :maxdepth: 1
 
+    programmatically/overview
     programmatically/authentication
     programmatically/validate
 
