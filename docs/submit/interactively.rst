@@ -142,7 +142,6 @@ Key Points to Consider for Templates
 
 
 .. list-table::
-   :header-rows: 1
    :widths: 25 25 25
 
    * - **Characteristics[Organism]**
