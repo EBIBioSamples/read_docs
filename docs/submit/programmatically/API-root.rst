@@ -47,4 +47,4 @@ Response
 Links Reference
 ---------------
 
-For all the links available in BioSamples check  the `Links Reference<links.html>`_.
+For all the links available in BioSamples check  the `Links Reference <links.html>`_.
