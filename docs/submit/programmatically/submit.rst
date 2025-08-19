@@ -24,8 +24,6 @@ Submission minimal fields
 --------------------------
 **Sample**
 
-Sample content reference:
-
 .. list-table:: Sample submission fields
    :header-rows: 1
    :widths: 15 40 20 25
@@ -66,8 +64,6 @@ Sample content reference:
      - A structured format (e.g., antibiogram) alongside key-value pairs.
      - `Array`
      - Optional (required only for structured-data submission)
-
-The structure of elements in the `characteristics` field:
 
 .. list-table:: Structure of `characteristics` elements
    :header-rows: 1
@@ -119,7 +115,7 @@ Submit a sample
 
 `POST` a sample to BioSamples.
 
-### Request
+**Request**
 
 .. code-block:: http
 
@@ -135,7 +131,7 @@ Submit a sample
      "webinSubmissionAccountId" : "Webin-12345"
    }
 
-### Response
+**Response**
 
 .. code-block:: http
 
@@ -180,16 +176,14 @@ Submit a sample
      }
    }
 
-### Links
-
-For all the links available in BioSamples responses, refer to the **Links Reference**.
+For all the links available in BioSamples responses, refer to the `**Links Reference**. <links.html>`_
 
 Update sample
 -------------
 
 `PUT` a sample to BioSamples. The submitted sample must include an accession matching the URL. Updating a sample overwrites its existing content. To preserve existing attributes, download the current sample, augment it, and resubmit.
 
-### Request
+**Request**
 
 .. code-block:: http
 
@@ -212,7 +206,7 @@ Update sample
      "create": "2025-07-30T08:54:04.025032099Z"
    }
 
-### Response
+**Response**
 
 .. code-block:: http
 
@@ -251,18 +245,16 @@ Update sample
      }
    }
 
-### Links
+Links
 
-Refer to the **Links Reference** for navigation.
+For all the links available in BioSamples responses, refer to the `**Links Reference**. <links.html>`_
 
 Submit structured data
 ----------------------
 
 `PUT` structured data associated with a sample (e.g., antibiogram data).
 
-### Example 1
-
-#### Request
+**Request**
 
 .. code-block:: http
 
@@ -315,7 +307,7 @@ Submit structured data
      ]
    }
 
-#### Response
+**Response**
 
 .. code-block:: http
 
@@ -371,16 +363,15 @@ Submit structured data
      ]
    }
 
-### Links
-
-Refer to the **Links Reference** for navigation.
+Links
+For all the links available in BioSamples responses, refer to the `**Links Reference**. <links.html>`_
 
 Submit curation object
 ----------------------
 
 `POST` a curation object to BioSamples.
 
-### Request
+**Request**
 
 .. code-block:: http
 
@@ -423,7 +414,7 @@ Submit curation object
      "hash": "d1f611ec2c8caf3d9f58fa40227ea60ebb5fc00eda06338fb81db7d987a6fa63"
    }
 
-### Response
+**Response**
 
 .. code-block:: http
 
@@ -462,9 +453,9 @@ Submit curation object
      }
    }
 
-### Links
+Links
 
-Refer to the **Links Reference** for navigation.
+For all the links available in BioSamples responses, refer to the `**Links Reference**. <links.html>`_
 
 .. _Accessioning a sample:
 
@@ -473,7 +464,7 @@ Accession a sample
 
 `POST` a sample for accessioning. Accessioned sample is saved as a private sample.
 
-### Request
+**Request**
 
 .. code-block:: http
 
@@ -488,7 +479,7 @@ Accession a sample
      "update": "2025-07-30T08:54:06.535179734Z"
    }
 
-### Response
+**Response**
 
 .. code-block:: http
 
@@ -522,9 +513,9 @@ Accession a sample
      }
    }
 
-### Links
+**Links**
 
-Refer to the **Links Reference**.
+For all the links available in BioSamples responses, refer to the `**Links Reference**. <links.html>`_
 
 .. _Validating sample fields:
 
@@ -533,7 +524,7 @@ Validate sample fields
 
 `POST` a sample to validate its basic fields before submission.
 
-### Request
+**Request**
 
 .. code-block:: http
 
@@ -563,7 +554,7 @@ Validate sample fields
      }
    }
 
-### Response
+**Response**
 
 .. code-block:: http
 
@@ -605,7 +596,7 @@ POST sample with external references
 
 `POST` a sample with external references.
 
-### Request
+**Request**
 
 .. code-block:: http
 
@@ -624,7 +615,7 @@ POST sample with external references
      }]
    }
 
-### Response
+**Response**
 
 .. code-block:: http
 
@@ -667,7 +658,7 @@ PUT sample with relationships
 
 `PUT` a sample with relationships.
 
-### Request
+**Request**
 
 .. code-block:: http
 
@@ -697,7 +688,7 @@ PUT sample with relationships
      "create": "2025-07-30T08:54:06.713767854Z"
    }
 
-### Response
+**Response**
 
 .. code-block:: http
 
@@ -737,6 +728,6 @@ PUT sample with relationships
      }
    }
 
-### Links
+Links
 
-Refer to the **Links Reference** for navigation.
+For all the links available in BioSamples responses, refer to the `**Links Reference**. <links.html>`_
