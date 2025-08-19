@@ -8,40 +8,16 @@ This website requires the limited processing of your personal data in order to f
 Contents
 --------
 
-- Submission minimal fields
-  - Sample
-  - Curation Link
-- Submit a sample
-  - Request
-  - Response
-  - Links
-- Update sample
-  - Request
-  - Response
-  - Links
-- Submit structured data
-  - Example 1
-  - Request
-  - Response
-  - Links
-- Submit curation object
-  - Request
-  - Response
-  - Links
-- Accession a sample
-  - Request
-  - Response
-  - Links
-- Validate sample fields
-  - Request
-  - Response
-- Post sample with external references
-  - Request
-  - Response
-- Put sample with relationships
-  - Request
-  - Response
-  - Links
+- `Submission minimal fields`_
+- `Submit a sample`_
+- `Update sample`_
+- `Submit structured data`_
+- `Submit curation object`_
+- `Accession a sample`_
+- `Validate sample fields`_
+- `POST sample with external references`_
+- `PUT sample with relationships`_
+
 
 Submission minimal fields
 --------------------------
@@ -619,7 +595,7 @@ Validate sample fields
      "create": "2025-07-30T08:54:06.361023322Z"
    }
 
-Post sample with external references
+POST sample with external references
 ------------------------------------
 
 `POST` a sample with external references.
@@ -681,7 +657,7 @@ Post sample with external references
      }
    }
 
-Put sample with relationships
+PUT sample with relationships
 -----------------------------
 
 `PUT` a sample with relationships.

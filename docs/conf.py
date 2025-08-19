@@ -33,6 +33,16 @@ html_theme = 'sphinx_rtd_theme'
 html_logo = 'BioSamples_logo.png'
 html_static_path = ['_static']
 
+
+# Add the extension
+extensions = [
+    "sphinx.ext.autosectionlabel",
+]
+
+# Make sure the target is unique
+autosectionlabel_prefix_document = True
+
+
 def setup(app):
     app.add_css_file('custom.css')
 
