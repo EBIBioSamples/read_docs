@@ -22,7 +22,7 @@ If you're completely new to BioSamples, you can see an introductory webinar at t
 
 
 .. toctree::
-    :caption: BioSamples Sample Discovery
+    :caption: BioSamples Sample Search
     :maxdepth: 1
 
     discover/search-interactively
