@@ -1,26 +1,19 @@
-Step-by-step Guide to Registering Samples Interactively
+Step-by-Step Guide to Registering Samples Interactively
 =======================================================
-
-Step 1: Select the relevant sample checklist from ENA
-Step 2: Download a template spreadsheet
-Step 3: Fill in the template in with the metadata from your project
-Step 4: Log into BioSamples and upload your spreadsheet with the drag’n’drop uploader
-
-
 
 Step 1: Select a Sample Checklist
 ---------------------------------
-BioSamples uses `Sample Checklists <general-guide/metadata-model.html>`_ to ensure that each sample is registered with at least a minimum amount of metadata. For more information, see the `BioSamples Metadata Model <general-guide/metadata-model.html>`_ page.
+BioSamples uses Sample Checklists to ensure that each sample is registered with at least a minimum amount of metadata. For more information, see the `BioSamples Metadata Model <general-guide/metadata-model.html>`_ page.
 **Please note that registering a BioSample with an ENA checklist is a requirement for submitting data using this sample to ENA.**
 
-See `here <https://www.ebi.ac.uk/ena/browser/checklists>`_ for the collection of ENA GSC-based Sample Checklists. Select a Sample Checklist now and make a note of the mandatory, recommended, and optional fields.
+| See `here for the collection of ENA GSC-based Sample Checklists <https://www.ebi.ac.uk/ena/browser/checklists>`_.
+| Select a Sample Checklist and make a note of the mandatory, recommended, and optional fields.
 
 
 Step 2: Download a Template Spreadsheet
 ---------------------------------------
-BioSamples provides a number of template spreadsheets corresponding to the most commonly used checklists. Please find the `tsv template spreadsheets here. <https://github.com/EBIBioSamples/read_docs/tree/main/docs/submit/templates>`_
-If your selected sample checklist is not present, you will have to edit a template for your checklist.
-
+BioSamples provides a number of template spreadsheets corresponding to the most commonly used Sample Checklists. Please find the `tsv template spreadsheets here. <https://github.com/EBIBioSamples/read_docs/tree/main/docs/submit/templates>`_
+If your selected Sample Checklist from Step 1 is not present, you will have to create your own template for your checklist.
 
 
 Step 3: Complete the Template Spreadsheet

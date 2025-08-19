@@ -23,8 +23,9 @@ Broadly, interactive sample registration involves completing a tsv template spre
 In the next section we break this down into individual steps.
 
 
+Interactive Submissions
+-----------------------
 .. toctree::
-    :caption: Interactive Submissions
     :maxdepth: 1
 
     interactively/step-by-step
