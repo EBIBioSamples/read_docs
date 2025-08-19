@@ -79,7 +79,7 @@ BioSamples currently supports four types of sample relationships
      - *Sample A is the child of Sample B. E.g.*
         - *Patient A is the child of Patient B*
 
-*For samples in the same project or study, it is recommended to provide the project or study information as an attribute, rather than providing ``has member`` relationships to avoid duplication.
+\*For samples in the same project or study, it is recommended to provide the project or study information as an attribute, rather than providing ``has member`` relationships to avoid duplication.
 
 
 

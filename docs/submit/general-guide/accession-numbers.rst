@@ -9,6 +9,9 @@ BioSample accessions always begin with ``SAM``. The next letter is either ``E`` 
 Understanding these accessions can give you some information about what they refer to, even before you find them in our browser. For example, in the case of studies, samples, experiments, runs and analyses, you can identify which INSDC partner accepted the original submission by looking at the first letter: ‘E’ for ENA, ‘D’ for DDBJ, or ‘S’ for NCBI.
 
 .. figure:: ../images/example_accession.png
-    :caption: Example ``SAM`` and ``ERS`` accession.
+   :scale: 70%
+   :alt: example BioSamples and ENA accession
+
+Example ``SAM`` and ``ERS`` accession.
 
 BioSample accession submitted via EMBL-EBI also have a redundant ENA accession beginning with ``ERS``. This is a historical holdover when ENA and BioSamples were more enmeshed, and every sample was submitted through ENA. Similarly, samples submitted via NCBI and DDBJ will have an additional unique INSDC secondary accession beginning with ``SRS`` and ``DRS``, respectively. *We highly recommend using the SAM accession for reporting and publications.*
