@@ -18,6 +18,8 @@ Contents
 - `POST sample with external references`_
 - `PUT sample with relationships`_
 
+- :ref:`validating sample fields`.
+
 
 Submission minimal fields
 --------------------------
@@ -523,7 +525,7 @@ Accession a sample
 
 Refer to the **Links Reference**.
 
-.. _Validate sample fields:
+.. _Validating sample fields:
 
 Validate sample fields
 ----------------------
