@@ -1,4 +1,4 @@
-Step-by-Step Guide to Registering Samples Interactively
+Step-by-Step Guide
 =======================================================
 
 Step 1: Select a Sample Checklist

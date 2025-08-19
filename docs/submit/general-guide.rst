@@ -14,8 +14,8 @@ BioSamples allows sample registration via two routes, each of which is appropria
 BioSamples also allows a variety of other features, including
 
 - `Updating existing samples <update-samples.html>`_
-- :ref:`accessioning a sample`.
-- :ref:`validating sample fields`.
+- :ref:`accessioning a sample`
+- :ref:`validating sample fields`
 
 
 The interactive file upload service is recommended, unless you are already familiar with programmatic submissions.

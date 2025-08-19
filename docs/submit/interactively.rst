@@ -2,7 +2,7 @@ How to Register Samples Interactively
 =====================================
 
 This guide details how to register samples interactively in BioSamples through an ordinary web browser without having to go through the technical challenges of using an API.
-If you want to create a process for syncing samples programmatically, refer to the `BioSamples JSON API <programatically.html>`_.
+If you want to create a process for syncing samples programmatically, refer to the `BioSamples JSON API <../programatically.html>`_.
 
 Requirements
 ------------
@@ -23,11 +23,5 @@ Broadly, interactive sample registration involves completing a tsv template spre
 In the next section we break this down into individual steps.
 
 
-Interactive Submissions
------------------------
-.. toctree::
-    :maxdepth: 1
-
-    interactively/step-by-step
-
+`**Step-by-Step Guide** <interactively/step-by-step.html`_
 
