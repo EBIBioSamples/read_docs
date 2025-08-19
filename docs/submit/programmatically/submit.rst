@@ -523,6 +523,8 @@ Accession a sample
 
 Refer to the **Links Reference**.
 
+.. _Validate sample fields:
+
 Validate sample fields
 ----------------------
 
