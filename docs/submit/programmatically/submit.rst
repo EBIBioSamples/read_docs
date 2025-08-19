@@ -368,7 +368,7 @@ Links
 For all the links available in BioSamples responses, refer to the `**Links Reference**. <links.html>`_
 
 
-.. _Submit curation object::
+.. _Submit curation object:
 
 Submit curation object
 ----------------------
