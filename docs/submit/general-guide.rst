@@ -29,6 +29,7 @@ The interactive file upload service is recommended, unless you are already famil
 
     general-guide/registration
     general-guide/accession-numbers
+    metadata-model
 
 
 
