@@ -47,4 +47,4 @@ Response
 Links Reference
 ---------------
 
-You can find a full list of BioSamples links in the `Links <links.html>`_ Reference documentation section.
+For all the links available in BioSamples check  the `Links Reference<links.html>`_.

@@ -51,12 +51,12 @@ HTTP conventions
 Authentication
 **************
 
-Authentication is managed via a JWT token in the HTTP request header. In examples requiring authorization, use `$TOKEN` as a placeholder.
+Authentication is managed via a `JWT <https://www.jwt.io/>`_ token in the HTTP request header. For more details see the `authentication guide <authentication.html>`_ In examples requiring authorization, use `$TOKEN` as a placeholder.
 
 Supported HTTP verbs
 ********************
 
-BioSamples API follows HTTP method conventions:
+BioSamples API follows HTTP method conventions with `HTTP verbs <https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods>`_ for each action. See below for the list of verbs available in the BioSamples API.
 
 .. list-table:: BioSamples’s API supported verbs
    :header-rows: 1
@@ -81,7 +81,7 @@ BioSamples API follows HTTP method conventions:
 HTTP Status codes
 *****************
 
-The API uses standard HTTP status codes to indicate request outcomes. For a full reference, see MDN Web Docs.
+The API uses standard HTTP status codes to indicate request outcomes. For a full reference, see `MDN Web Docs <https://developer.mozilla.org/en-US/docs/Web/HTTP/Status>`_.
 
 .. list-table:: BioSamples’s API HTTP status codes
    :header-rows: 1
@@ -106,5 +106,5 @@ The API uses standard HTTP status codes to indicate request outcomes. For a full
 HTTPS vs HTTP
 *************
 
-BioSamples is served exclusively over HTTPS in line with EMBL-EBI’s security guidelines. Refer to the linked Technical Services Cluster blog post for full details.
+BioSamples is served exclusively over HTTPS in line with EMBL-EBI’s security guidelines. Refer to the linked `Technical Services Cluster blog post <https://www.ebi.ac.uk/about/technology/2017/09/https-by-default/>`_ for full details.
 

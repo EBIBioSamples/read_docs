@@ -1,7 +1,10 @@
 Links in the BioSamples API
 ============================
 
-This section defines the HAL-based `_links` objects provided in API responses, used to navigate and discover resources.
+In BioSamples API links are used to connect resources. Use the links to move reliably through the API.
+For more details about links, check out the `standard docs <https://tools.ietf.org/html/rfc5988>`_ and the
+`link relation types <https://www.iana.org/assignments/link-relations/link-relations.xhtml>`_
+
 
 Pagination Links
 ----------------
