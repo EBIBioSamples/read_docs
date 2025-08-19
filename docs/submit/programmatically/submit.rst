@@ -13,12 +13,11 @@ Contents
 - `Update sample`_
 - `Submit structured data`_
 - `Submit curation object`_
-- `Accession a sample`_
-- `Validate sample fields`_
+- :ref:`accessioning a sample`.
+- :ref:`validating sample fields`.
 - `POST sample with external references`_
 - `PUT sample with relationships`_
 
-- :ref:`validating sample fields`.
 
 
 Submission minimal fields
@@ -466,6 +465,8 @@ Submit curation object
 ### Links
 
 Refer to the **Links Reference** for navigation.
+
+.. _Accessioning a sample:
 
 Accession a sample
 ------------------
