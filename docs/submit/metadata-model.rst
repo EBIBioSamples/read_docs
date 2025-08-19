@@ -3,7 +3,7 @@ BioSamples Metadata Model
 
 The BioSamples archive stores metadata about samples, such as collection date, location, and organism type, to aid in their discovery and re-analysis. These samples can be associated with data derived from them, which is deposited in other archives such as ENA. Samples must first be submitted to BioSamples prior to submitting data to ENA.
 
-Samples only have a few mandatory fields:
+Samples only have a few mandatory fields based off of the `BSDC00001 <https://www.ebi.ac.uk/biosamples/schemas/certification/biosamples-minimal.json>`_: BioSamples minimal checklist
 
 - sample name
 - release date (publication date for the sample)
@@ -17,9 +17,8 @@ Partners should submit rich metadata where possible as this will enable discover
 
 Sample Checklists
 -----------------
-
-To ensure that each sample is registered with at least a minimum amount of metadata, ENA provides GSC-based `Sample Checklists <https://www.ebi.ac.uk/ena/browser/checklists>`_.
-These provide a set of minimal attributes which you should provide for a given sample.
+To increase standardisation and ensure that each sample is registered with at least a minimum amount of metadata, ENA provides GSC-based `Sample Checklists <https://www.ebi.ac.uk/ena/browser/checklists>`_.
+These provide a set of minimal attributes which you should provide for a given sample. BioSamples does not validate against these checklists.
 
 .. note:: Registering a BioSample with an ENA checklist is a requirement for submitting data related to this sample to ENA.
 
@@ -27,9 +26,9 @@ These checklists are developed in collaboration with different research communit
 Note that each checklist provides a set of mandatory values which must always be provided, as well as recommended values which should be provided wherever possible,
 and optional values which are suggested values not relevant to every case. When registering a sample, it is important to choose the most relevant sample checklist available and provide the most metadata possible.
 
-If you cannot provide a value for a mandatory field within a checklist, please use one of the `INDSC accepted terms <https://ena-docs.readthedocs.io/en/latest/submit/samples/missing-values.html>`_ for missing value reporting.
+There are also several existing BioSamples checklists:
 
-
+If you cannot provide a value for a mandatory field within a checklist, please see :ref:`Reporting Missing Values` for the appropriate values.
 
 
 Sample Relationships in BioSamples
@@ -113,6 +112,10 @@ BioSamples keeps records of different dates related to the sample lifecycle. The
        by other data archives and appear due to data exchange with other archives
        participating in the International Nucleotide Sequence Database Collaboration (INSDC).
 
+
+
+
+.. _Reporting Missing Values:
 
 Reporting Missing Values
 ------------------------
