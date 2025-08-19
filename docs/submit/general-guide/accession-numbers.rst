@@ -14,4 +14,6 @@ Understanding these accessions can give you some information about what they ref
 
 Example ``SAM`` and ``ERS`` accession.
 
-BioSample accession submitted via EMBL-EBI also have a redundant ENA accession beginning with ``ERS``. This is a historical holdover when ENA and BioSamples were more enmeshed, and every sample was submitted through ENA. Similarly, samples submitted via NCBI and DDBJ will have an additional unique INSDC secondary accession beginning with ``SRS`` and ``DRS``, respectively. *We highly recommend using the SAM accession for reporting and publications.*
+BioSample accession submitted via EMBL-EBI also have a redundant ENA accession beginning with ``ERS``. This is a historical holdover when ENA and BioSamples were more enmeshed, and every sample was submitted through ENA. Similarly, samples submitted via NCBI and DDBJ will have an additional unique INSDC secondary accession beginning with ``SRS`` and ``DRS``, respectively.
+
+.. note:: We highly recommend using the SAM accession for reporting and publications.
