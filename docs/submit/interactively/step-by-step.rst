@@ -3,7 +3,7 @@ Step-by-Step Guide
 
 Step 1: Select a Sample Checklist
 ---------------------------------
-BioSamples uses Sample Checklists to ensure that each sample is registered with at least a minimum amount of metadata. For more information, see the `BioSamples Metadata Model <general-guide/metadata-model.html>`_ page.
+BioSamples uses Sample Checklists to ensure that each sample is registered with at least a minimum amount of metadata. For more information, see the `BioSamples Metadata Model <../metadata-model.html>`_ page.
 **Please note that registering a BioSample with an ENA checklist is a requirement for submitting data using this sample to ENA.**
 
 | See `here for the collection of ENA GSC-based Sample Checklists <https://www.ebi.ac.uk/ena/browser/checklists>`_.

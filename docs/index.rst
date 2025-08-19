@@ -17,6 +17,7 @@ If you're completely new to BioSamples, you can see an introductory webinar at t
     :maxdepth: 1
 
     submit/general-guide
+    submit/metadata-model
     submit/interactively
     submit/programmatically
 

@@ -1,7 +1,7 @@
 Registering a WEBIN Submission Account
 =======================================
 
-Before you can submit data to BioSamples you must register a Webin submission account.
+Before you can submit data to BioSamples you must register a Webin submission account. This is the joint ENA-BioSamples authentication service.
 
 To do so, please navigate to the `Webin Portal <https://www.ebi.ac.uk/ena/submit/webin/login>`_ and click the ‘Register’ button. You will be presented with the below interface:
 
