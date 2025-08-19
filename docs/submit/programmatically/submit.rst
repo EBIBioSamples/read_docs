@@ -1,5 +1,5 @@
-API Submission
-==============
+Register Samples via API
+========================
 
 Using the BioSamples API you can submit new samples to our resource, as well as update or curate samples.
 

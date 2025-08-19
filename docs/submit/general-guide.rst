@@ -32,11 +32,4 @@ Getting Started
     general-guide/accession-numbers
 
 
-Registration Services
-=====================
 
-.. toctree::
-    :maxdepth: 1
-
-    registration-services/interactive-reg
-    registration-services/programmatic-reg

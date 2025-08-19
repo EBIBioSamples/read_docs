@@ -1,4 +1,4 @@
-Links in the BioSamples API
+API Links
 ============================
 
 In BioSamples API links are used to connect resources. Use the links to move reliably through the API.

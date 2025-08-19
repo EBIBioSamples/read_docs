@@ -1,5 +1,5 @@
-User accounts and authentication
-================================
+Webin Authentication Token
+==========================
 
 This page describes how to create a user account and log in to use the API.
 
