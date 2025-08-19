@@ -15,6 +15,7 @@ Contents
 - `Submit curation object`_
 - :ref:`accessioning a sample`.
 - :ref:`validating sample fields`.
+- :ref:`Submit curation object`
 - `POST sample with external references`_
 - `PUT sample with relationships`_
 
@@ -365,6 +366,9 @@ Submit structured data
 
 Links
 For all the links available in BioSamples responses, refer to the `**Links Reference**. <links.html>`_
+
+
+.. _Submit curation object::
 
 Submit curation object
 ----------------------
