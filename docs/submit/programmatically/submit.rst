@@ -14,7 +14,7 @@ Contents
 - `Submit structured data`_
 - `Submit curation object`_
 - `Accession a sample`_
-- `Validate sample fields`_
+- `Validating sample fields`_
 - `POST sample with external references`_
 - `PUT sample with relationships`_
 
