@@ -34,8 +34,9 @@ If you're completely new to BioSamples, you can see an introductory webinar at t
     :caption: BioSamples Sample Updates
     :maxdepth: 1
 
-    update/curation
     update/update-samples
+    update/curation
+
 
 .. toctree::
     :caption: FAQ and Tips

@@ -1,5 +1,5 @@
-API Overview
-============
+Overview
+========
 
 Accessing the service
 ---------------------

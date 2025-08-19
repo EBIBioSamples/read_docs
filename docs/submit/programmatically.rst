@@ -11,5 +11,4 @@ How to Register Samples Programmatically
     programmatically/links
     programmatically/API-root
     programmatically/submit
-    programmatically/certification
 

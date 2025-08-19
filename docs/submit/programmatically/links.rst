@@ -1,5 +1,5 @@
 API Links
-============================
+==========
 
 In BioSamples API links are used to connect resources. Use the links to move reliably through the API.
 For more details about links, check out the `standard docs <https://tools.ietf.org/html/rfc5988>`_ and the
