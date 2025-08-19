@@ -17,6 +17,9 @@ BioSamples also allows a variety of other features, including
 - `Obtaining private accessions prior to sample registration <request-accessions.html>`_
 - `Validating Samples using the JSON API <programmatically/validate.html>`_
 
+- :ref:`validating sample fields`.
+
+
 The interactive file upload service is recommended, unless you are already familiar with programmatic submissions.
 
 
