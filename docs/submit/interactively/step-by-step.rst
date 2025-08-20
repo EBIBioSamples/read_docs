@@ -22,12 +22,8 @@ The file format for uploading sample metadata to BioSamples is `ISA-Tab <https:/
 Although ISA-Tab is specifically for Investigation, Study and Assay data, we have tried to use the sample table format specified in the ISA-Tab specification.
 
 1. ISA-TAB requires columns to be in a specific order to be successfully validated and processed.
-2. Every ``Characteristics`` you select as a column header in the TSV file must have ``Term Source Ref`` and
-``Term Accession Number`` column headers following it.
-While filling up the data (rows) in the file, you may choose to provide blank values if you don’t have the information for it.
-In the below example, you can always opt to not provide the Term Source Ref and Term Accession Number but the column headers must be present as in the example below.
-3. Be aware that if you are not specifying any values for Term Source Ref or Term Accession Number, the tab delimiter must still be provided.
-This allows for proper parsing of the files.
+2. Every ``Characteristics`` you select as a column header in the TSV file must have ``Term Source Ref`` and ``Term Accession Number`` column headers following it. While filling up the data (rows) in the file, you may choose to provide blank values if you don’t have the information for it. In the below example, you can always opt to not provide the Term Source Ref and Term Accession Number but the column headers must be present as in the example below.
+3. Be aware that if you are not specifying any values for Term Source Ref or Term Accession Number, the tab delimiter must still be provided. This allows for proper parsing of the files.
 4. We expect all sample names to be unique in the file.
 
 .. list-table:: Example of
