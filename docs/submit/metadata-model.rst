@@ -3,11 +3,11 @@ BioSamples Metadata Model
 
 The BioSamples archive stores metadata about samples, such as collection date, location, and organism type, to aid in their discovery and re-analysis. These samples can be associated with data derived from them, which is deposited in other archives such as ENA. Samples must first be submitted to BioSamples prior to submitting data to ENA.
 
-Samples only have a few mandatory fields based on the `BSDC00001: BioSamples minimal checklist <https://www.ebi.ac.uk/biosamples/schemas/certification/biosamples-minimal.json>`_
+Samples only have a few mandatory fields.
 
 - sample name
 - release date (publication date for the sample)
-- organism name
+- organism
 - collection date
 - geographic location (country and/or sea).
 
