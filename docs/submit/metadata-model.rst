@@ -3,7 +3,7 @@ BioSamples Metadata Model
 
 The BioSamples archive stores metadata about samples, such as collection date, location, and organism type, to aid in their discovery and re-analysis. These samples can be associated with data derived from them, which is deposited in other archives such as ENA. Samples must first be submitted to BioSamples prior to submitting data to ENA.
 
-Samples only have a few mandatory fields based off of the `BSDC00001 <https://www.ebi.ac.uk/biosamples/schemas/certification/biosamples-minimal.json>`_: BioSamples minimal checklist
+Samples only have a few mandatory fields based on the `BSDC00001: BioSamples minimal checklist <https://www.ebi.ac.uk/biosamples/schemas/certification/biosamples-minimal.json>`_
 
 - sample name
 - release date (publication date for the sample)
@@ -25,8 +25,6 @@ These provide a set of minimal attributes which you should provide for a given s
 These checklists are developed in collaboration with different research communities to ensure that they are relevant and realistic for their context.
 Note that each checklist provides a set of mandatory values which must always be provided, as well as recommended values which should be provided wherever possible,
 and optional values which are suggested values not relevant to every case. When registering a sample, it is important to choose the most relevant sample checklist available and provide the most metadata possible.
-
-There are also several existing BioSamples checklists:
 
 If you cannot provide a value for a mandatory field within a checklist, please see :ref:`Reporting Missing Values` for the appropriate values.
 
@@ -54,7 +52,7 @@ When the submitter provides relationship information in one sample, the reverse 
 BioSamples currently supports four types of sample relationships
 
 
-.. list-table:: Title
+.. list-table:: Sample Relationships
    :widths: 25 25 25
    :header-rows: 1
 

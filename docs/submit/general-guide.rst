@@ -13,7 +13,7 @@ BioSamples allows sample registration via two routes, each of which is appropria
 
 BioSamples also allows a variety of other features, including
 
-- `Updating existing samples <update-samples.html>`_
+- `Updating existing samples <update/update-samples.htmll>`_
 - :ref:`accessioning a sample`
 - :ref:`validating sample fields`
 
@@ -29,7 +29,6 @@ The interactive file upload service is recommended, unless you are already famil
 
     general-guide/registration
     general-guide/accession-numbers
-    metadata-model
 
 
 
