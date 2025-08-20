@@ -26,7 +26,7 @@ Although ISA-Tab is specifically for Investigation, Study and Assay data, we hav
 3. Be aware that if you are not specifying any values for Term Source Ref or Term Accession Number, the tab delimiter must still be provided. This allows for proper parsing of the files.
 4. We expect all sample names to be unique in the file.
 
-.. list-table:: Example of
+.. list-table:: Example Characteristic
    :header-rows: 1
    :widths: 23 23 23 9
 
