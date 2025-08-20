@@ -1,5 +1,5 @@
-Search BioSamples Programmatically
-==================================
+How to Search BioSamples Programmatically
+=========================================
 
 You can use BioSamples filters to restrict resources based on their characteristics. Filters are generally composed of a `type`, a `field`, and a `value` combined as `<type>:<field>:<value>`. If the `value` is omitted, the filter checks for the existence of the provided field. Filters work with both sample and accession search endpoints.
 

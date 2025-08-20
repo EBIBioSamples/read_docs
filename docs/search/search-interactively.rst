@@ -1,8 +1,5 @@
-Search BioSamples Interactively
-===============================
-
-Search guide
-============
+How to Search BioSamples Interactively
+======================================
 
 This guide explains how to search the BioSamples database using the web interface and the REST API.
 
