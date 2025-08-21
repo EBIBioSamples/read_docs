@@ -6,7 +6,7 @@ This guide explains how to search the BioSamples database using the web interfac
 Searching BioSamples
 --------------------
 
-You can search ``BioSamples <https://www.ebi.ac.uk/biosamples/samples>`_ by providing free text or structured queries. The search bar at the top of the BioSamples page accepts:
+You can search `BioSamples <https://www.ebi.ac.uk/biosamples/samples>`_ by providing free text or structured queries. The search bar at the top of the BioSamples page accepts:
 
 - **Free text** (e.g. ``liver``) to return all samples with this word in their metadata.
 - **Attribute:value pairs** (e.g. ``organism:Homo sapiens``) to refine results.

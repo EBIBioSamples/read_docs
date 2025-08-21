@@ -1,7 +1,6 @@
 Sample Curation Guide
 =====================
 
-
 BioSamples applies both automatic and manual curation to enhance the findability and standardization of sample metadata. Curation is applied as layered records, preserving original data while providing cleaned, enriched views.
 
 Sample curation
