@@ -5,6 +5,6 @@ Cookbook Recipes
 .. toctree::
     :maxdepth: 1
 
-    curate_sample
-    ETAG
-    external_reference
+    cookbook/curate_sample
+    cookbook/ETAG
+    cookbook/external_reference
