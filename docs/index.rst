@@ -36,6 +36,7 @@ If you're completely new to BioSamples, you can see an introductory webinar at t
 
     update/update-samples
     update/curation
+    update/how-to-curate
 
 
 .. toctree::
