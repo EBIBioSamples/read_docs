@@ -201,7 +201,7 @@ And here are the response headers:
    content-length: 1488
 
 Template
-~~~~~~~
+~~~~~~~~
 
 Here is a template ``curl`` request you can use to try the ETAG functionality:
 
