@@ -4,7 +4,7 @@ Release Notes
 Last updated: 29 July 2025
 
 Contents
-======================
+---------
 
 - `v5.3.11 Release notes`_
 - `v5.3.10 Release notes`_
