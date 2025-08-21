@@ -56,29 +56,29 @@ Contents
 - `v4.2.2 Release notes`_
 - `v4.2.1 Release notes`_
 - `v4.2.0 Release notes`_
-- `v4.1.15`_
-- `v4.1.14`_
-- `v4.1.13`_
-- `v4.1.12`_
-- `v4.1.11`_
-- `v4.1.10`_
-- `v4.1.9`_
-- `v4.1.8`_
-- `v4.1.7`_
-- `v4.1.6`_
-- `v4.1.5`_
-- `v4.1.4`_
-- `v4.1.3`_
-- `v4.1.2`_
-- `v4.1.1`_
-- `v4.1.0`_
-- `v4.0.7`_
-- `v4.0.6`_
-- `v4.0.5`_
-- `v4.0.4`_
-- `v4.0.3`_
-- `v4.0.2`_
-- `v4.0.1`_
+- `v4.1.15 Release notes`_
+- `v4.1.14 Release notes`_
+- `v4.1.13 Release notes`_
+- `v4.1.12 Release notes`_
+- `v4.1.11 Release notes`_
+- `v4.1.10 Release notes`_
+- `v4.1.9 Release notes`_
+- `v4.1.8 Release notes`_
+- `v4.1.7 Release notes`_
+- `v4.1.6 Release notes`_
+- `v4.1.5 Release notes`_
+- `v4.1.4 Release notes`_
+- `v4.1.3 Release notes`_
+- `v4.1.2 Release notes`_
+- `v4.1.1 Release notes`_
+- `v4.1.0 Release notes`_
+- `v4.0.7 Release notes`_
+- `v4.0.6 Release notes`_
+- `v4.0.5 Release notes`_
+- `v4.0.4 Release notes`_
+- `v4.0.3 Release notes`_
+- `v4.0.2 Release notes`_
+- `v4.0.1 Release notes`_
 - `v4.0.0 Release notes`_
 
 v5.3.11 Release notes
