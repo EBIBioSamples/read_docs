@@ -20,11 +20,12 @@ For example, Field ``disease state`` contains ``N/A`` in the original data.
 
 .. code-block:: json
 
-"characteristics": {
-  "disease state": [
-    { "text": "N/A" }
-  ],
-  "organism": [
-    { "text": "Homo sapiens" }
-  ]
-}
+   "characteristics" : {
+       "disease state" :
+            [
+            { "text": "N/A" }
+            ],
+       "organism": [
+            { "text": "Homo sapiens" }
+            ]
+   }
