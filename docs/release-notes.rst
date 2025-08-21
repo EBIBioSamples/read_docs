@@ -1,7 +1,7 @@
 BioSamples — Release Notes
 ===========================
 
-_Last updated: 29 July 2025_
+Last updated: 29 July 2025
 
 Contents
 --------
@@ -200,8 +200,8 @@ v5.2.3 Release notes
 
 **New Endpoints**
 1. Structured data:
-   - `PUT structureddata/<accession>` to add structured data.
-   - `GET structureddata/<accession>` to fetch structured data.
+- `PUT structureddata/<accession>` to add structured data.
+- `GET structureddata/<accession>` to fetch structured data.
 
 v5.2.2 Release notes
 ---------------------
@@ -209,7 +209,7 @@ v5.2.2 Release notes
 1. Removed sample name uniqueness constraint for file uploader submissions.
 
 v5.2.1 Release notes (v5.1.15 & v5.2.0 included)
----------------------
+------------------------------------------------
 **Internal improvements**
 - Improved uploader error messages.
 - Allowed case-insensitive column names.
@@ -234,9 +234,9 @@ v5.1.12 Release notes
 ----------------------
 **New Features**
 1. Private sample search via WEBIN Authentication:
-   - GET single private sample.
-   - Filtered search for private-only or mixed sample lists.
-   - Example API usage with `authProvider=WEBIN` and JWT tokens.
+- GET single private sample.
+- Filtered search for private-only or mixed sample lists.
+- Example API usage with `authProvider=WEBIN` and JWT tokens.
 
 2. Added support for publications, contacts, and organizations in drag-and-drop uploader.
 
@@ -259,7 +259,7 @@ v5.1.10 Release notes
 - Fixed missing `curationdomain` parameter handling in HAL sample API responses when using “no-curations” flag.
 
 v5.1.6 Release notes (v5.1.5 included)
-----------------------
+--------------------------------------
 **New Features**
 - Improved file uploader: large submissions queued & tracked via submission ID with status: ACTIVE, COMPLETED, FAILED.
 
@@ -284,7 +284,7 @@ v5.1.2 Release notes
 - General performance optimizations.
 
 v5.1.1 Release notes (v5.1.0 included)
----------------------
+---------------------------------------
 **New Features**
 1. Integrated JSON Schema store: checklist management.
 2. Released drag-and-drop uploader (supports Webin and AAP).
