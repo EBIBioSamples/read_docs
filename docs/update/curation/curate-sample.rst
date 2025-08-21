@@ -25,9 +25,8 @@ Steps
 
 Example sample (simplified):
 
-   .. code-block:: json
+    .. code-block:: json
 
-      {
         "name": "OAR_USU_Benz2616_LNG",
         "accession": "SAMN08432304",
         "domain": "self.BiosampleImportNCBI",
@@ -46,7 +45,7 @@ Example sample (simplified):
           ]
           ...
         }
-      }
+
 
    Suppose we want to add an ontology code to the `development stage` attribute:
 
@@ -136,9 +135,9 @@ Templates
 
 ### Attribute and external reference curation template
 
-.. code-block:: json
+    .. code-block:: json
 
-   {
+
      "sample": "<accession-of-the-interest-sample>",
      "curation": {
        "attributesPre": [
@@ -170,4 +169,4 @@ Templates
          ...
        ]
      }
-   }
+
