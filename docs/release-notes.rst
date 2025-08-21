@@ -1,84 +1,85 @@
-BioSamples — Release Notes
+Release Notes
 ===========================
 
 Last updated: 29 July 2025
 
 Contents
---------
-- v5.3.11 Release notes
-- v5.3.10 Release notes
-- v5.3.8 Release notes
-- v5.3.7 Release notes
-- v5.3.6 Release notes
-- v5.2.20 Release notes
-- v5.2.19 Release notes
-- v5.2.18 Release notes
-- What’s Changed
-- v5.2.16 Release notes
-- v5.2.15 Release notes
-- v5.2.14 Release notes
-- v5.2.13 Release notes
-- v5.2.12 Release notes
-- v5.2.11 Release notes
-- v5.2.10 Release notes
-- v5.2.9 Release notes
-- v5.2.8 Release notes
-- v5.2.7 Release notes
-- v5.2.6 Release notes
-- v5.2.5 Release notes
-- v5.2.4 Release notes
-- v5.2.3 Release notes
-- v5.2.2 Release notes
-- v5.2.1 Release notes (v5.1.15 & v5.2.0 included)
-- v5.1.14 Release notes
-- v5.1.13 Release notes
-- v5.1.12 Release notes
-- v5.1.11 Release notes
-- v5.1.10 Release notes
-- v5.1.6 Release notes (v5.1.5 included)
-- v5.1.4 Release notes
-- v5.1.3 Release notes
-- v5.1.2 Release notes
-- v5.1.1 Release notes (v5.1.0 included)
-- v5.0.7 Release notes
-- v5.0.6 Release notes
-- v5.0.5 Release notes
-- v5.0.4 Release notes
-- v5.0.3 Release notes
-- v5.0.2 Release notes
-- v5.0.1 Release notes
-- v5.0.0 Release notes
-- v4.2.7 Release notes
-- v4.2.6 Release notes
-- v4.2.5 Release notes
-- v4.2.3 Release notes
-- v4.2.2 Release notes
-- v4.2.1 Release notes
-- v4.2.0 Release notes
-- v4.1.15
-- v4.1.14
-- v4.1.13
-- v4.1.12
-- v4.1.11
-- v4.1.10
-- v4.1.9
-- v4.1.8
-- v4.1.7
-- v4.1.6
-- v4.1.5
-- v4.1.4
-- v4.1.3
-- v4.1.2
-- v4.1.1
-- v4.1.0
-- v4.0.7
-- v4.0.6
-- v4.0.5
-- v4.0.4
-- v4.0.3
-- v4.0.2
-- v4.0.1
-- v4.0.0 Release notes
+======================
+
+- `v5.3.11 Release notes`_
+- `v5.3.10 Release notes`_
+- `v5.3.8 Release notes`_
+- `v5.3.7 Release notes`_
+- `v5.3.6 Release notes`_
+- `v5.2.20 Release notes`_
+- `v5.2.19 Release notes`_
+- `v5.2.18 Release notes`_
+- `What’s Changed`_
+- `v5.2.16 Release notes`_
+- `v5.2.15 Release notes`_
+- `v5.2.14 Release notes`_
+- `v5.2.13 Release notes`_
+- `v5.2.12 Release notes`_
+- `v5.2.11 Release notes`_
+- `v5.2.10 Release notes`_
+- `v5.2.9 Release notes`_
+- `v5.2.8 Release notes`_
+- `v5.2.7 Release notes`_
+- `v5.2.6 Release notes`_
+- `v5.2.5 Release notes`_
+- `v5.2.4 Release notes`_
+- `v5.2.3 Release notes`_
+- `v5.2.2 Release notes`_
+- `v5.2.1 Release notes (v5.1.15 & v5.2.0 included)`_
+- `v5.1.14 Release notes`_
+- `v5.1.13 Release notes`_
+- `v5.1.12 Release notes`_
+- `v5.1.11 Release notes`_
+- `v5.1.10 Release notes`_
+- `v5.1.6 Release notes (v5.1.5 included)`_
+- `v5.1.4 Release notes`_
+- `v5.1.3 Release notes`_
+- `v5.1.2 Release notes`_
+- `v5.1.1 Release notes (v5.1.0 included)`_
+- `v5.0.7 Release notes`_
+- `v5.0.6 Release notes`_
+- `v5.0.5 Release notes`_
+- `v5.0.4 Release notes`_
+- `v5.0.3 Release notes`_
+- `v5.0.2 Release notes`_
+- `v5.0.1 Release notes`_
+- `v5.0.0 Release notes`_
+- `v4.2.7 Release notes`_
+- `v4.2.6 Release notes`_
+- `v4.2.5 Release notes`_
+- `v4.2.3 Release notes`_
+- `v4.2.2 Release notes`_
+- `v4.2.1 Release notes`_
+- `v4.2.0 Release notes`_
+- `v4.1.15`_
+- `v4.1.14`_
+- `v4.1.13`_
+- `v4.1.12`_
+- `v4.1.11`_
+- `v4.1.10`_
+- `v4.1.9`_
+- `v4.1.8`_
+- `v4.1.7`_
+- `v4.1.6`_
+- `v4.1.5`_
+- `v4.1.4`_
+- `v4.1.3`_
+- `v4.1.2`_
+- `v4.1.1`_
+- `v4.1.0`_
+- `v4.0.7`_
+- `v4.0.6`_
+- `v4.0.5`_
+- `v4.0.4`_
+- `v4.0.3`_
+- `v4.0.2`_
+- `v4.0.1`_
+- `v4.0.0 Release notes`_
 
 v5.3.11 Release notes
 ----------------------
