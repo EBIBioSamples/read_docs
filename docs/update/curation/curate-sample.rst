@@ -43,7 +43,6 @@ Example sample (simplified):
               "text": "adult"
             }
           ]
-          ...
         }
 
 
@@ -135,38 +134,27 @@ Templates
 
 ### Attribute and external reference curation template
 
-    .. code-block:: json
+  .. code-block:: json
 
-
+   {
      "sample": "<accession-of-the-interest-sample>",
      "curation": {
        "attributesPre": [
          {
            "type": "<attribute-name>",
            "value": "<attribute-value>",
-           "iri": [ "<existing-iris-if-any>", "..." ]
-         },
-         ...
+           "iri": ["<existing-iri-if-any>"]
+         }
        ],
        "attributesPost": [
          {
            "type": "<new-attribute-name>",
            "value": "<new-attribute-value>",
-           "iri": [ "<new-iris-if-any>", "..." ]
-         },
-         ...
+           "iri": ["<new-iri-if-any>"]
+         }
        ],
        "externalReferencesPre": [
          {
            "url": "<URL-of-external-reference-to-replace>"
-         },
-         ...
+         }
        ],
-       "externalReferencesPost": [
-         {
-           "url": "<new-URL-of-external-reference>"
-         },
-         ...
-       ]
-     }
-
