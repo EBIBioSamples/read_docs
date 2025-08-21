@@ -18,7 +18,8 @@ For example, Field ``disease state`` contains ``N/A`` in the original data.
 
 **Example — original data:**
 
-```json
+.. code-block:: json
+
 "characteristics": {
   "disease state": [
     { "text": "N/A" }
@@ -27,4 +28,3 @@ For example, Field ``disease state`` contains ``N/A`` in the original data.
     { "text": "Homo sapiens" }
   ]
 }
-
