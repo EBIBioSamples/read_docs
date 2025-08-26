@@ -11,14 +11,14 @@ Samples only have a few mandatory fields.
 - collection date
 - geographic location (country and/or sea).
 
-Partners should submit rich metadata where possible as this will enable discovery and reuse of registered samples. BioSamples allows submitters to add as many custom metadata attributes as desired.
+Partners should submit rich metadata where possible as this will enable discovery and reuse of registered samples. Submitters may add add as many custom metadata attributes as desired, which will be indexed and searchable in BioSamples.
 
 
 
 Sample Checklists
 -----------------
 To increase standardisation and ensure that each sample is registered with at least a minimum amount of metadata, ENA provides GSC-based `Sample Checklists <https://www.ebi.ac.uk/ena/browser/checklists>`_.
-These provide a set of minimal attributes which you should provide for a given sample. BioSamples does not validate against these checklists.
+These provide a set of minimal attributes which you should provide for a given sample.
 
 .. note:: Registering a BioSample with an ENA checklist is a requirement for submitting data related to this sample to ENA.
 
