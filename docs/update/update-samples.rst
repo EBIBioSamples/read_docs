@@ -1,11 +1,9 @@
 How to Interactively Update Existing Samples
 --------------------------------------------
-After `registering your samples <../submit/interactively/step-by-step.html`_, the uploader will send back a file for download. This file will depend on the size of your sample registration.
+After `registering your samples <../submit/interactively/step-by-step.html>`_, the uploader will send back a file for download. This file will depend on the size of your sample registration.
 
 - If your tsv file of samples is less than 20 KBytes and the file has less than 200 samples, the result file will have the sample metadata and the accessions. See here for how to update.
-- If your tsv file of samples is greater than 20 KBytes or the file has more than 200 samples the result file will have a unique submission ID for the upload. The unique submission ID can be used to get the result of the upload using the View Submissions tab.
-In this case, on the 'View Submissions' tab, you will be able to download a JSON file which shows the mapping between sampleName and sampleAccession. See here for how to update.
-
+- If your tsv file of samples is greater than 20 KBytes or the file has more than 200 samples the result file will have a unique submission ID for the upload. The unique submission ID can be used to get the result of the upload using the View Submissions tab. In this case, on the 'View Submissions' tab, you will be able to download a JSON file which shows the mapping between sampleName and sampleAccession. See here for how to update.
 
 In order to update samples interactively:
 

@@ -2,7 +2,7 @@
 Overview
 =========
 This guide details how to register samples interactively in BioSamples through an ordinary web browser without having to go through the technical challenges of using an API.
-If you want to create a process for syncing samples programmatically, refer to the `BioSamples JSON API <../programatically.html>`_.
+If you want to create a process for syncing samples programmatically, refer to the `BioSamples JSON API <../programmatically.html>`_.
 
 Requirements
 ------------
