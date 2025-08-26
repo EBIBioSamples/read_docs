@@ -1,25 +1,18 @@
 How to Interactively Update Existing Samples
 --------------------------------------------
-After `registering your samples <../submit/interactively/step-by-step.html>`_, the uploader will send back a file for download. This file will depend on the size of your sample registration.
+After `registering your samples <../submit/interactively/step-by-step.html>`_ with your tsv file of samples, the uploader will send back a file for download. This file will depend on the size of your sample registration.
 
-- If your tsv file of samples is less than 20 KBytes and the file has less than 200 samples, the result file will have the sample metadata and the accessions. See here for how to update.
-- If your tsv file of samples is greater than 20 KBytes or the file has more than 200 samples the result file will have a unique submission ID for the upload. The unique submission ID can be used to get the result of the upload using the View Submissions tab. In this case, on the 'View Submissions' tab, you will be able to download a JSON file which shows the mapping between sampleName and sampleAccession. See here for how to update.
-
-In order to update samples interactively:
-
-1. Take the original tsv submission file and make metadata changes within that file.
-2. Add the ``Sample Identifier`` column to the tsv submission file, filling it in with the appropriate sample accessions. You can find these sample accessions in the JSON file in the 'View Submissions' tab.
-3. Submit this update tsv submission file to the drag'n'drop uploader.
-
-OR
-
-1. Take the tsv file that you have received with the sample metadata and the ``Sample Identifier`` column already present
-2. Remove the receipt in this file, the resulting bottom few rows.
-3. Make any metadata changes to this file and submit
-
-The uploader sends back a file for download with the submission result, in case of same time uploads where the file size is less than 20 KBytes and
-If you are looking to update existing samples that have been uploaded, you can use the file returned to you after your submission. Please remember to remove the receipt section.
-
+- If your tsv file of samples is less than 20 KBytes and the file has less than 200 samples, the result file will be a tsv that looks similar to the original file, with sample metadata and the sample accessions.
+    1. Take the new tsv file that you have received with the sample metadata and the ``Sample Identifier`` column already present
+    2. Remove the receipt section (the bottom few rows)
+    3. Make any metadata changes to this file
+    4. Re-submit this update tsv submission file to the drag'n'drop uploader
+    5. This will update the sample in BioSamples
+- If your tsv file of samples is greater than 20 KBytes or the file has more than 200 samples the result file will be a tsv that only has a unique submission ID for the upload. On the 'View Submissions' tab, you will be able to find your submission with the unique submission ID, and download a JSON file which shows the mapping between sampleName and sampleAccession.
+    1. Take the original tsv file of samples file and make metadata changes within that file.
+    2. Add the ``Sample Identifier`` column to the tsv submission file, filling it in with the appropriate sample accessions. You can find these sample accessions in the JSON file in the 'View Submissions' tab.
+    3. Submit this update tsv submission file to the drag'n'drop uploader.
+    4. This will update the sample in BioSamples
 
 
 
