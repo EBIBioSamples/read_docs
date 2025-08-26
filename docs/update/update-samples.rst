@@ -2,15 +2,15 @@ How to Interactively Update Existing Samples
 --------------------------------------------
 After `registering your samples <../submit/interactively/step-by-step.html>`_ with your tsv file of samples, the uploader will send back a file for download. This file will depend on the size of your sample registration.
 
-- If your tsv file of samples is less than 20 KBytes and the file has less than 200 samples, the result file will be a tsv that looks similar to the original file, with sample metadata and the sample accessions.
-    1. Take the new tsv file that you have received with the sample metadata and the ``Sample Identifier`` column already present
+- **If your tsv file of samples is less than 20 KBytes and the file has less than 200 samples**, the result file will be a tsv (`see example here <../submit/templates/example-tsv-results-file.tsv>`_) that looks similar to the original file, with sample metadata and the sample accessions.
+    1. Take the result tsv file that you have just received which contains sample metadata and the ``Sample Identifier`` column
     2. Remove the receipt section (the bottom few rows)
     3. Make any metadata changes to this file
     4. Re-submit this update tsv submission file to the drag'n'drop uploader
     5. This will update the sample in BioSamples
-- If your tsv file of samples is greater than 20 KBytes or the file has more than 200 samples the result file will be a tsv that only has a unique submission ID for the upload. On the 'View Submissions' tab, you will be able to find your submission with the unique submission ID, and download a JSON file which shows the mapping between sampleName and sampleAccession.
+- **If your tsv file of samples is greater than 20 KBytes or the file has more than 200 samples**, the result file will be a tsv that only has a unique submission ID for the upload. On the 'View Submissions' tab, you will be able to find your submission with the unique submission ID, and download a JSON file which shows the mapping between sampleName and sampleAccession.
     1. Take the original tsv file of samples file and make metadata changes within that file.
-    2. Add the ``Sample Identifier`` column to the tsv submission file, filling it in with the appropriate sample accessions. You can find these sample accessions in the JSON file in the 'View Submissions' tab.
+    2. Add the ``Sample Identifier`` column to the tsv submission file, filling it in with the appropriate sample accessions. You can find these sample accessions in the JSON file in the 'View Submissions' tab (`see example here <../submit/templates/example-result-file.json>`_).
     3. Submit this update tsv submission file to the drag'n'drop uploader.
     4. This will update the sample in BioSamples
 

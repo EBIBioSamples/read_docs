@@ -1,0 +1,8 @@
+Sample Source	sample name	Release Date	Characteristics[Organism]	Unit	Term Source REF	Term Accession Number	Characteristics[project name]	Unit	Term Source REF	Term Accession Number	Characteristics[host subject id]	Unit	Term Source REF	Term Accession Number	Characteristics[host body product]	Unit	Term Source REF	Term Accession Number	Characteristics[tax_id]	Unit	Term Source REF	Term Accession Number	Sample Identifier
+"Zimmermann Collection, Microbiota Vault"	SM1FD0	2025-07-25	Human Gut Metagenome		NCBITAXON	749906	ABERRANT	NA	"MIxS v6, human-associated package"	MIXS:0000092	M1F	NA	"MIxS v6, human-associated package"	MIXS:0000861	stool	NA	"MIxS v6, human-associated package"	MIXS:0000888	Gut Metagenome [NCBI:txid749906]	NA	MIxS v6 core checklist	MIXS:0001320	SAMEA131694292
+																							
+																							
+																							
+********RECEIPT START********																							
+4e14c916-15d9-4fdc-8a5a-cb3c11f62db6 : Number of samples persisted: 1																							
+********RECEIPT END********																							

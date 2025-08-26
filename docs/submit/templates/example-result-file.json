@@ -1,0 +1,16 @@
+{
+  "submissionStatus" : "COMPLETED",
+  "submissionDate" : "20 Aug 2025 16:08",
+  "lastUpdateDate" : "20 Aug 2025 16:08",
+  "submitterDetails" : "Webin-67954",
+  "checklist" : "BSDC00001",
+  "sampleNameAccessionPairs" : [ {
+    "sampleName" : "ACE1_123_18B_150m",
+    "sampleAccession" : "SAMEA131692846"
+  }, {
+    "sampleName" : "ACE1_123_19A_60m",
+    "sampleAccession" : "SAMEA131692847"
+  } ],
+  "validationMessage" : "46f208f2-e07d-466b-af42-93a3cc8bd54a:Number of samples persisted: 2",
+  "webin" : true
+}
