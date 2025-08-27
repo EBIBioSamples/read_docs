@@ -72,7 +72,7 @@ Although ISA-Tab is specifically for Investigation, Study and Assay data, we hav
      - Mandatory
      - Optional
    * - ``Comment[bsd_relationship:<relationship_type>]``
-     - Relationship to another sample (by sample name if within the same file, or by accession if already in BioSamples).
+     - `Relationship to another sample <Sample Relationships>`_ (by sample name if within the same file, or by accession if already in BioSamples).
      - Optional
      - Optional
    * - ``Comment[external DB REF]``

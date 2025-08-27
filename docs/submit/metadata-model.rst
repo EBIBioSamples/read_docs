@@ -29,6 +29,8 @@ and optional values which are suggested values not relevant to every case. When 
 If you cannot provide a value for a mandatory field within a checklist, please see :ref:`Reporting Missing Values` for the appropriate values.
 
 
+.. _Sample Relationships:
+
 Sample Relationships in BioSamples
 ----------------------------------
 
