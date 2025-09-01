@@ -22,15 +22,6 @@ If you're completely new to BioSamples, you can see an introductory webinar at t
     submit/interactively
     submit/programmatically
 
-
-.. toctree::
-    :caption: BioSamples Sample Search
-    :maxdepth: 1
-
-    search/search-interactively
-    search/search-programmatically
-
-
 .. toctree::
     :caption: BioSamples Sample Updates
     :maxdepth: 1
@@ -39,6 +30,12 @@ If you're completely new to BioSamples, you can see an introductory webinar at t
     update/curation
     update/how-to-curate
 
+.. toctree::
+    :caption: BioSamples Sample Search
+    :maxdepth: 1
+
+    search/search-interactively
+    search/search-programmatically
 
 .. toctree::
     :caption: FAQ and Tips

@@ -1,0 +1,3 @@
+Source Name	Sample Name	Release Date	Characteristics [Organism]	Term Source REF	Term Accession Number	Comment[bsd_relationship:same_as]
+source_name	name_1	2024-11-21	Homo sapiens	NCBITAXON	http://purl.obolibrary.org/obo/NCBITaxon_9606	name_2
+source_name	name_2	2024-11-21	Homo sapiens	NCBITAXON	http://purl.obolibrary.org/obo/NCBITaxon_9606	name_1
