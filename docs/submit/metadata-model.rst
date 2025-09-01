@@ -12,7 +12,7 @@ Samples only have a few mandatory fields.
 - geographic location (country and/or sea).
 
 Partners should submit rich metadata where possible as this will enable discovery and reuse of registered samples. Submitters may add add as many custom metadata attributes as desired, which will be indexed and searchable in BioSamples.
-If missing/null value reporting is required, see `Reporting Missing Values <_Reporting Missing Values>`_.
+If missing/null value reporting is required, see `Reporting Missing Values <Reporting Missing Values>`_.
 
 
 
@@ -114,9 +114,6 @@ BioSamples keeps records of different dates related to the sample lifecycle. The
        participating in the International Nucleotide Sequence Database Collaboration (INSDC).
 
 
-
-
-.. _Reporting Missing Values:
 
 Reporting Missing Values
 ------------------------
