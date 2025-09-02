@@ -7,7 +7,7 @@ BioSamples uses Sample Checklists to ensure that each sample is registered with 
 
 .. note:: Please note that registering a BioSample with an ENA checklist is a requirement for submitting data using this sample to ENA.
 
-Select a Sample Checklist from the `collection of ENA GSC-based Sample Checklists <https://www.ebi.ac.uk/ena/browser/checklists>`_ and make a note of the mandatory, recommended, and optional fields.
+Select either the BioSamples Minimal Checklist (`tsv <https://github.com/EBIBioSamples/read_docs/blob/main/docs/submit/templates/BSDC00001.tsv>`_) (`json <https://www.ebi.ac.uk/biosamples/schemas/certification/biosamples-minimal.json>`_), or select a Sample Checklist from the `collection of ENA GSC-based Sample Checklists <https://www.ebi.ac.uk/ena/browser/checklists>`_ and make a note of the mandatory, recommended, and optional fields.
 
 
 Step 2: Download a Template Spreadsheet

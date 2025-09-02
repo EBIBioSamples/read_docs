@@ -11,7 +11,6 @@ If you're completely new to BioSamples, you can see an introductory webinar at t
     :maxdepth: 1
 
     about
-    release-notes
 
 .. toctree::
     :caption: BioSamples Sample Registration
@@ -42,3 +41,5 @@ If you're completely new to BioSamples, you can see an introductory webinar at t
     :maxdepth: 1
 
     FAQ/FAQ
+    release-notes
+
