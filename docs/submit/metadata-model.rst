@@ -3,30 +3,26 @@ BioSamples Metadata Model
 
 The BioSamples archive stores metadata about samples, such as collection date, location, and organism type, to aid in their discovery and re-analysis. These samples can be associated with data derived from them, which is deposited in other archives such as ENA. Samples must first be submitted to BioSamples prior to submitting data to ENA.
 
-Samples only have a few mandatory fields.
+Samples for BioSamples only have a few mandatory fields.
 
 - sample name
 - release date (publication date for the sample)
 - organism
-- collection date
-- geographic location (country and/or sea).
 
 Partners should submit rich metadata where possible as this will enable discovery and reuse of registered samples. Submitters may add add as many custom metadata attributes as desired, which will be indexed and searchable in BioSamples.
-
 
 
 Sample Checklists
 -----------------
 To increase standardisation and ensure that each sample is registered with at least a minimum amount of metadata, ENA provides GSC-based `Sample Checklists <https://www.ebi.ac.uk/ena/browser/checklists>`_.
-These provide a set of minimal attributes which you should provide for a given sample.
+These provide a set of attributes which are mandatory and recommended for ENA. If you cannot provide a value for a recommended field, provide whatever minimal metadata is available, as you can `update your samples <../update/update-samples.html>`_ with the appropriate metadata later.
+If you cannot provide a value for a mandatory field, please see :ref:`Reporting Missing Values` for the appropriate values.
 
 .. note:: Registering a BioSample with an ENA checklist is a requirement for submitting data related to this sample to ENA.
 
 These checklists are developed in collaboration with different research communities to ensure that they are relevant and realistic for their context.
 Note that each checklist provides a set of mandatory values which must always be provided, as well as recommended values which should be provided wherever possible,
 and optional values which are suggested values not relevant to every case. When registering a sample, it is important to choose the most relevant sample checklist available and provide the most metadata possible.
-
-If you cannot provide a value for a mandatory field within a checklist, please see :ref:`Reporting Missing Values` for the appropriate values.
 
 
 .. _Sample Relationships:
