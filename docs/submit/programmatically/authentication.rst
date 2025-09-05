@@ -6,14 +6,13 @@ This page describes how to create a user account and log in to use the API.
 Overview
 --------
 
-We support ENA Webin authentication for access and authorization, via EMBL-EBI’s European Nucleotide Archive (ENA) `**Webin authentication** <https://www.ebi.ac.uk/ena/submit/webin/auth/swagger-ui/index.html>`_ service.
-For more information please refer to ENA Webin authentication **API documentation**.
+We support ENA Webin authentication for access and authorization, via EMBL-EBI’s European Nucleotide Archive (ENA) `Webin authentication <https://www.ebi.ac.uk/ena/submit/webin/auth/swagger-ui/index.html>`_ service.
 
-Webin authentication is token based—once you have an account, you can log in with your username and password to receive a `**token** <https://jwt.io>`_ for more info). This token contains all the information needed to identify who you are and what data you're allowed to access. You present this token to the API every time you make a request.
+Webin authentication is token based—once you have an account, you can log in with your username and password to receive a `token <https://jwt.io>`_ for more info). This token contains all the information needed to identify who you are and what data you're allowed to access. You present this token to the API every time you make a request.
 
 The Webin authentication token is valid for **3 hours** by default. If you need a token with longer validity—for example, for long-running processes—you can request it using the `ttl` (time-to-live) parameter.
 
-> **Note**: This guide describes authentication against our **production system**. If you are testing on our development server, replace the production URL with the corresponding dev URL:
+.. note:: This guide describes authentication against our **production system**. If you are testing on our development server, replace the production URL with the corresponding dev URL:
 
 .. list-table:: Webin authentication URLs
    :header-rows: 1
@@ -30,7 +29,7 @@ The Webin authentication token is valid for **3 hours** by default. If you need 
 Creating your account
 ---------------------
 
-You can create an account through the `**ENA WEBIN AUTHENTICATION SWAGGER UI** <https://www.ebi.ac.uk/ena/submit/webin/auth/swagger-ui/index.html>`_.
+You can create an account through the `ENA WEBIN AUTHENTICATION SWAGGER UI <https://www.ebi.ac.uk/ena/submit/webin/auth/swagger-ui/index.html>`_.
 
 How to get a token
 ------------------
@@ -52,7 +51,7 @@ Example response
 
    eyJhbGciOi...your.jwt.token...FC2Rdig
 
-> **Note**: The token is valid for **3 hours** by default.
+.. note::  The token is valid for **3 hours** by default.
 
 How to use the obtained token
 -----------------------------
