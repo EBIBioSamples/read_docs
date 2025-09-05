@@ -1,7 +1,7 @@
 BioSamples Metadata Model
 =========================
 
-The BioSamples archive stores metadata about samples, such as collection date, location, and organism type, to aid in their discovery and re-analysis. These samples can be associated with data derived from them, which is deposited in other archives such as ENA. Samples must first be submitted to BioSamples prior to submitting data to ENA.
+The BioSamples archive stores and displays metadata about samples to aid in their discovery and re-analysis. Each sample receives a `unique sample accession <general-guide/accession-numbers.html>`_, which can be referenced in other archives such as ENA and PRIDE, increasing findability and data quality through cross-referencing.
 
 Samples for BioSamples only have a few mandatory fields.
 
@@ -24,6 +24,7 @@ These checklists are developed in collaboration with different research communit
 Note that each checklist provides a set of mandatory values which must always be provided, as well as recommended values which should be provided wherever possible,
 and optional values which are suggested values not relevant to every case. When registering a sample, it is important to choose the most relevant sample checklist available and provide the most metadata possible.
 
+Checklists are maintained in collaboration with the ENA team using the Checklist Editor and JSON Schema Store. Submissions are automatically validated against their chosen checklist via BioValidator at the time of submission or curation. This ensures that key fields are present and consistent.
 
 .. _Sample Relationships:
 
