@@ -9,7 +9,7 @@ This general guide will get you started in understanding how to register your sa
 BioSamples allows sample registration via two routes, each of which is appropriate for a different set of users and submission types.
 
 - **Interactive File Uploads** involve logging into BioSamples, downloading template ISA-TAB (tsv) spreadsheets that can be completed off-line and uploaded to BioSamples. This is often the most accessible route.
-- **Programmatic Submissions** involve preparing your submissions as JSON files before submitting them to BioSamples via the JSON API.
+- **Programmatic Submissions** involve preparing your submissions as JSON files before submitting them to BioSamples via the `JSON API <https://jsonapi.org/>`_.
 
 BioSamples also allows a variety of other features, including
 

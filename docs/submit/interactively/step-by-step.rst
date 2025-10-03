@@ -61,7 +61,7 @@ Although ISA-Tab is specifically for Investigation, Study and Assay data, we hav
      - Mandatory
    * - ``Characteristics[<name>]``
      - Sample attributes. You may include multiple characteristics. **Each Characteristics column must be followed by matching** ``Term Source REF`` and ``Term Accession Number`` columns. ``Characteristics[Organism]`` is mandatory, and its value must be valid.
-     - Optional (repeating); ``Characteristics[Organism]`` is Mandatory and its value must be valid against (`NCBI Taxonomy <https://www.ncbi.nlm.nih.gov/datasets/taxonomy/tree/>`_)
+     - Optional (repeating); ``Characteristics[Organism]`` is Mandatory and its value must be valid against `NCBI Taxonomy <https://www.ncbi.nlm.nih.gov/datasets/taxonomy/tree/>`_
      - Optional; for ``Characteristics[Organism]`` the value is Mandatory
    * - ``Term Source REF``
      - Controlled vocabulary/ontology providing the term (e.g. NCBITAXON, BTO). Must follow each Characteristics column.
