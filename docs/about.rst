@@ -8,7 +8,7 @@ BioSamples is a sample metadata repository for the deposition and exploration of
 
 If you submit information to BioSamples please note that we will handle your submission in accordance with our Submission Privacy Notice.
 
-BioSamples is freely available, and its content is distributed under the `EMBL-EBI Terms of Use <https://www.ebi.ac.uk/about/terms-of-use>`_. The BioSamples code is available in `github <https://github.com/EBIBioSamples/biosamples-v4>`_ and distributed under the Apache 2.0 license.
+BioSamples is freely available, and its content is distributed under the `EMBL-EBI Terms of Use <https://www.ebi.ac.uk/about/terms-of-use>`_. The BioSamples code is available in `Github <https://github.com/EBIBioSamples/biosamples-v4>`_ and distributed under the Apache 2.0 license.
 
 
 Contacts
