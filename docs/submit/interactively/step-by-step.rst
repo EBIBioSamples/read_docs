@@ -10,6 +10,8 @@ BioSamples uses Sample Checklists to ensure that each sample is registered with 
 Select either the BioSamples Minimal Checklist (`tsv <https://github.com/EBIBioSamples/read_docs/blob/main/docs/submit/templates/BSDC00001.tsv>`_) (`json <https://www.ebi.ac.uk/biosamples/schemas/certification/biosamples-minimal.json>`_), or select a Sample Checklist from the `collection of ENA GSC-based Sample Checklists <https://www.ebi.ac.uk/ena/browser/checklists>`_ and make a note of the mandatory, recommended, and optional fields.
 
 
+.. _downloading template spreadsheets:
+
 Step 2: Download a Template Spreadsheet
 ---------------------------------------
 BioSamples provides a number of template spreadsheets corresponding to the most commonly used Sample Checklists. Please find the `tsv template spreadsheets here. <https://github.com/EBIBioSamples/read_docs/tree/main/docs/submit/templates>`_
