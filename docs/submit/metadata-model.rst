@@ -1,30 +1,29 @@
 BioSamples Metadata Model
 =========================
 
-The BioSamples archive stores and displays metadata about samples to aid in their discovery and re-analysis. Each sample receives a `unique sample accession <general-guide/accession-numbers.html>`_, which can be referenced in other archives such as ENA and PRIDE, increasing findability and data quality through cross-referencing.
+The BioSamples repository stores and displays metadata about samples to enable their discovery and re-analysis. Each sample receives a `unique sample accession <general-guide/accession-numbers.html>`_, which can be referenced in other archives such as ENA, EGA, and PRIDE, increasing findability and interoperability through cross-referencing.
 
 Samples for BioSamples only have a few mandatory fields.
 
 - sample name
 - release date (publication date for the sample)
-- organism
+- organism (must be in NCBI Taxonomy)
 
-Partners should submit rich metadata where possible as this will enable discovery and reuse of registered samples. Submitters may add add as many custom metadata attributes as desired, which will be indexed and searchable in BioSamples.
+Partners should submit rich metadata where possible as this will enable discovery and reuse of registered samples. Submitters may add as many custom metadata attributes as desired, which will be indexed and searchable in BioSamples.
 
 
 Sample Checklists
 -----------------
-To increase standardisation and ensure that each sample is registered with at least a minimum amount of metadata, ENA provides GSC-based `Sample Checklists <https://www.ebi.ac.uk/ena/browser/checklists>`_.
-These provide a set of attributes which are mandatory and recommended for ENA. If you cannot provide a value for a recommended field, provide whatever minimal metadata is available, as you can `update your samples <../update/update-samples.html>`_ with the appropriate metadata later.
+To increase standardisation and ensure that each sample is registered with at least a minimum amount of metadata, ENA provides Genomics Standards Consortium (GSC) `Sample Checklists <https://www.ebi.ac.uk/ena/browser/checklists>`_.
+These each provide a minimum set of mandatory attributes which are required for a particular environment for an ENA submission. There are also recommended and optional attributes available. It is possible to `update your samples <../update/update-samples.html>`_ with the appropriate metadata later.
 If you cannot provide a value for a mandatory field, please see :ref:`Reporting Missing Values` for the appropriate values.
 
 .. note:: Registering a BioSample with an ENA checklist is a requirement for submitting data related to this sample to ENA.
 
 These checklists are developed in collaboration with different research communities to ensure that they are relevant and realistic for their context.
-Note that each checklist provides a set of mandatory values which must always be provided, as well as recommended values which should be provided wherever possible,
-and optional values which are suggested values not relevant to every case. When registering a sample, it is important to choose the most relevant sample checklist available and provide the most metadata possible.
+When registering a sample, it is important to choose the most relevant sample checklist available and provide the most metadata possible.
 
-Checklists are maintained in collaboration with the ENA team using the Checklist Editor and JSON Schema Store. Submissions are automatically validated against their chosen checklist via BioValidator at the time of submission or curation. This ensures that key fields are present and consistent.
+Checklists are maintained in collaboration with the ENA team and are available in the JSON Schema Store. Submissions are automatically validated against their selected checklist via `bioValidator <https://github.com/elixir-europe/biovalidator>`_ at the time of submission or curation. This ensures that key fields are present and consistent.
 
 .. _Sample Relationships:
 
@@ -47,7 +46,8 @@ The sample relationship is submitted to BioSamples by providing the source, type
    } ]
 
 
-When the submitter provides relationship information in one sample, the reverse relationships in corresponding samples will be generated automatically. BioSamples doesn’t validate the type, direction, or the logic of the relationships.
+When the submitter provides relationship information in one sample, the reverse relationships in corresponding samples will be generated automatically.
+BioSamples does not validate the type, direction, or the logic of the relationships.
 BioSamples currently supports four types of sample relationships
 
 
@@ -67,21 +67,17 @@ BioSamples currently supports four types of sample relationships
    * - ``same as``
      - ``same as``
      - *Sample A is the same as Sample B. This can be used to link duplicated samples.*
-   * - ``has member``
-     - ``has member (reverse)``
-     - *Sample A is a member of Sample group G. BioSamples create a sample group for each sampleTab submission\*. It's also possible to put patient samples as a sample group.*
    * - ``child of``
      - ``child of (reverse)``
      - *Sample A is the child of Sample B. E.g.*
         - *Patient A is the child of Patient B*
 
-\*For samples in the same project or study, it is recommended to provide the project or study information as an attribute, rather than providing ``has member`` relationships to avoid duplication.
 
 
 
 Sample Dates
 ------------
-BioSamples keeps records of different dates related to the sample lifecycle. The dates can be generated either by data archives or by the data submitters for data exchange or experiment purposes.
+BioSamples keeps records of different dates related to the sample lifecycle. The dates can be generated either by the data repositories or by the data submitters for data exchange or experiment purposes.
 
 .. list-table:: Sample date fields
    :header-rows: 1
@@ -106,7 +102,7 @@ BioSamples keeps records of different dates related to the sample lifecycle. The
    * - ``INSDC first public and INSDC last update``
      - You might see additional dates or timestamps in the sample’s ``attributes``
        section, such as *INSDC first public* and *INSDC last update*. These are generated
-       by other data archives and appear due to data exchange with other archives
+       by other data repositories and appear due to data exchange with other archives
        participating in the International Nucleotide Sequence Database Collaboration (INSDC).
 
 
@@ -115,10 +111,10 @@ BioSamples keeps records of different dates related to the sample lifecycle. The
 Reporting Missing Values
 ------------------------
 
-The International Nucleotide Database Collaboration (INSDC) have a standardised missing/null value reporting language to be used where a value of an expected format for sample metadata reporting can not be provided.
+The International Nucleotide Database Collaboration (INSDC) has a standardised missing/null value reporting language to be used where a value of an expected format for sample metadata reporting can not be provided.
 
-The controlled vocabulary takes into account different type of constraints. Submitters are strongly encouraged to always provide true values.
-However, if missing/null value reporting is required, submitters are asked to use a term with the finest granularity for their situation. See the table below for accepted missing value reporting terms.
+The controlled vocabulary takes into account different types of constraints. Submitters are strongly encouraged to always provide true values.
+However, if a missing/null value reporting is required, submitters are asked to use a term with the finest granularity for their situation. See the table below for accepted missing value reporting terms.
 
 .. list-table:: Recommended terms for reporting missing values
    :header-rows: 1
