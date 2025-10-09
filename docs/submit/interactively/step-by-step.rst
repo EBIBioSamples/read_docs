@@ -5,7 +5,7 @@ Step 1: Select a Sample Checklist
 ---------------------------------
 BioSamples uses Sample Checklists to ensure that each sample is registered with at least a minimum amount of metadata. For more information, see the `BioSamples Metadata Model <../metadata-model.html>`_ page.
 
-.. note:: Please note that registering a BioSample with an ENA checklist is a requirement for submitting data using this sample to ENA.
+.. note:: Please note that registering a BioSample with an ENA checklist is a requirement for submitting data referencing this sample in ENA.
 
 Select either the BioSamples Minimal Checklist (`tsv <https://github.com/EBIBioSamples/read_docs/blob/main/docs/submit/templates/BSDC00001.tsv>`_) (`json <https://www.ebi.ac.uk/biosamples/schemas/certification/biosamples-minimal.json>`_), or select a Sample Checklist from the `collection of ENA GSC-based Sample Checklists <https://www.ebi.ac.uk/ena/browser/checklists>`_ and make a note of the mandatory, recommended, and optional fields.
 
@@ -141,5 +141,5 @@ Step 4: Submit the Completed Spreadsheet
 
 1. After completing the template spreadsheet with the appropriate metadata, login to BioSamples at the `drag'n'drop interface <https://www.ebi.ac.uk/biosamples/uploadLogin>`_ with your Webin credentials. See `Registering a WEBIN Submission Account <..\general-guide\registration.html>`_ for more details.
 2. Select the appropriate checklist for validation from the dropdown list, and then upload your completed spreadsheet.
-3. The uploader sends back a file for download with the submission result, in case of same time uploads where the file size is less than 20 KBytes and the file has less than 200 samples, the result file will have the sample metadata and the accessions. In case of queued uploads where the file size is greater than 20 KBytes or the file has more than 200 samples the result file will have a unique submission ID for the upload. The unique submission ID can be used to get the result of the upload using the View Submissions tab.
+3. The uploader sends back a file for download with the submission result. In the case of same time uploads where the file size is less than 20 KB and the file has less than 200 samples, the result file will have the sample metadata and the accessions. In case of queued uploads where the file size is greater than 20 KB or the file has more than 200 samples, this will take longer and the result file will have a unique submission ID for the upload. The unique submission ID can be used to get the result of the upload using the View Submissions tab.
 4. If you are looking to update existing samples that have been uploaded, you can use the file returned to you after your submission. Please remember to remove the receipt section.
