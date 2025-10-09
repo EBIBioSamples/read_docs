@@ -37,11 +37,11 @@ Submission minimal fields
      - `String`
      - Required
    * - release
-     - The date at which the sample was first made public.
+     - The date on which the sample was first made public.
      - `Date ISO 8601`
      - Required
    * - update
-     - The date at which the sample was last updated.
+     - The date on which the sample was last updated.
      - `Date ISO 8601`
      - System Generated
    * - accession

@@ -42,7 +42,7 @@ BioSamples supports multiple serialization formats via HTTP content negotiation.
      - Use to serve BioSchemas content
    * - XML
      - ``Accept: text/xml`` or ``Accept: application/xml``
-     - Soon deprecated
+     - Soon to be deprecated
 
 
 HTTP conventions

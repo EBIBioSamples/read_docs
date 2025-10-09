@@ -8,7 +8,7 @@ Overview
 
 We support ENA Webin authentication for access and authorization, via EMBL-EBI’s European Nucleotide Archive (ENA) `Webin authentication <https://www.ebi.ac.uk/ena/submit/webin/auth/swagger-ui/index.html>`_ service.
 
-Webin authentication is token based—once you have an account, you can log in with your username and password to receive a `token <https://jwt.io>`_ for more info). This token contains all the information needed to identify who you are and what data you're allowed to access. You present this token to the API every time you make a request.
+Webin authentication is token based—once you have an account, you can log in with your username and password to receive a `token <https://jwt.io>`_). This token contains all the information needed to identify who you are and what data you're allowed to access. You present this token to the API every time you make a request.
 
 The Webin authentication token is valid for **3 hours** by default. If you need a token with longer validity—for example, for long-running processes—you can request it using the `ttl` (time-to-live) parameter.
 
@@ -90,5 +90,5 @@ Then refer to this variable in your scripts:
      https://www.ebi.ac.uk/biosamples/samples \
      -d "{ /* sample content */ }"
 
-Be careful with your token—anyone who has it can act as if they are you.
+Be careful with your token—anyone who has it can access your account.
 
