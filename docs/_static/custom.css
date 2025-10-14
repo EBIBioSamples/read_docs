@@ -7,6 +7,7 @@
     max-width: none;
 }
 
+{% extends "!layout.html" %}
   {% block footer %} {{ super() }}
 
   <style>
