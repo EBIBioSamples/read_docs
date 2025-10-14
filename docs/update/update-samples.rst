@@ -1,24 +1,24 @@
 How to Interactively Update Existing Samples
 --------------------------------------------
-After `registering your samples <../submit/interactively/step-by-step.html>`_ with your tsv file of samples, the uploader will send back a file for download. This file will depend on the size of your sample registration.
+After `registering your samples <../submit/interactively/step-by-step.html>`_ with your tsv file, the uploader will send back a file for download. This file will depend on the size of your sample registration.
 
-- **If your tsv file of samples is less than 20 KBytes and the file has less than 200 samples**, the result file will be a tsv (`example here <../submit/templates/example-tsv-results-file.tsv>`_) that looks similar to the original file, with sample metadata and the sample accessions.
+- **If your tsv file of samples is less than 20 KBytes and the file has less than 200 samples**, the result file will be a tsv (`example here <https://github.com/EBIBioSamples/read_docs/blob/main/docs/submit/templates/example-tsv-results-file.tsv`_) that looks similar to the original file, with sample metadata and the sample accessions.
     1. Take the result tsv file that you have just received which contains sample metadata and the ``Sample Identifier`` column
     2. Remove the receipt section (the bottom few rows)
     3. Make any metadata changes to this file
-    4. Re-submit this update tsv submission file to the drag'n'drop uploader
+    4. Re-submit this update tsv submission file to the `File Upload Service <https://www.ebi.ac.uk/biosamples/uploadLogin>`_
     5. This will update the sample in BioSamples
 - **If your tsv file of samples is greater than 20 KBytes or the file has more than 200 samples**, the result file will be a tsv that only has a unique submission ID for the upload. On the 'View Submissions' tab, you will be able to find your submission with the unique submission ID, and download a JSON file which shows the mapping between sampleName and sampleAccession.
-    1. Take the original tsv file of samples file and make metadata changes within that file.
-    2. Add the ``Sample Identifier`` column to the tsv submission file, filling it in with the appropriate sample accessions. You can find these sample accessions in the JSON file in the 'View Submissions' tab (`see example here <../submit/templates/example-result-file.json>`_).
-    3. Submit this update tsv submission file to the drag'n'drop uploader.
+    1. Take the original tsv file of samples and make metadata changes within that file.
+    2. Add the ``Sample Identifier`` column to the tsv submission file, filling it in with the appropriate sample accessions. You can find these sample accessions in the JSON file in the 'View Submissions' tab (`see example here <.https://github.com/EBIBioSamples/read_docs/blob/main/docs/submit/templates/example-result-file.json>`_).
+    3. Submit this update tsv submission file to the `File Upload Service <https://www.ebi.ac.uk/biosamples/uploadLogin>`_.
     4. This will update the sample in BioSamples
 
 
 
 How to Programmatically Update a Sample
 ---------------------------------------
-`PUT` a sample to BioSamples. The submitted sample must include an accession matching the URL. Updating a sample overwrites its existing content. To preserve existing attributes, download the current sample, augment it, and resubmit.
+`PUT` a sample to BioSamples. The submitted sample must include an accession matching the URL. Updating a sample overwrites its existing content. To preserve existing attributes, download the current sample, add additional attributes, and resubmit.
 
 **Request**
 
@@ -84,4 +84,4 @@ How to Programmatically Update a Sample
 
 Links
 
-For all the links available in BioSamples responses, refer to the `**Links Reference**. <links.html>`_
+For all the links available in BioSamples responses, refer to the `Links Reference. <../submit/programmatically/links.html>`_

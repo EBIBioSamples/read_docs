@@ -29,6 +29,8 @@ Please cite:
 
 Mélanie Courtot, Luca Cherubin, Adam Faulconbridge, Daniel Vaughan, Matthew Green, David Richardson, Peter Harrison, Patricia L Whetzel, Helen Parkinson, Tony Burdett; *BioSamples database: an updated sample metadata hub*, **Nucleic Acids Research**, Volume 47, Issue D1, 8 January 2019, Pages D1172–D1178, `https://doi.org/10.1093/nar/gky1061 <https://doi.org/10.1093/nar/gky1061>`_.
 
+Courtot M, Gupta D, Liyanage I, Xu F, Burdett T. *BioSamples database: FAIRer samples metadata to accelerate research data management.* Nucleic Acids Res. 2022 Jan 7;50(D1):D1500-D1507. `doi: 10.1093/nar/gkab1046 <https://doi.org/10.1093/nar/gkab1046>`_. PMID: 34747489; PMCID: PMC8728232.
+
 How frequent are updates to BioSamples' data?
 ---------------------------------------------
 
@@ -39,19 +41,19 @@ What pattern do BioSamples accessions follow?
 
 BioSample accessions always begin with ``SAM``.
 The next letter is either ``E`` (EMBL-EBI), ``N`` (NCBI), or ``D`` (DDBJ).
-After that, there may be an ``A`` (Assay sample) or a ``G`` (Group of samples).
+After that, there may be an ``A`` (Assay sample).
 Finally there is a numeric component that may or may not be zero-padded.
 
 Why are some BioSamples linked to RRIDs?
 ----------------------------------------
 
-The Resource Identification (RRID) Initiative collaborates with BioSamples to identify pancreatic islets used by researchers in the Integrated Islet Distribution Program (IIDP). BioSamples participates in a limited capacity so IIDP samples can be identified as RRIDs. See the `blog post <https://scicrunch.org/resources/about/resource-reporting#>`_ and `RRID FAQs <https://scicrunch.org/resources/faq>`_ for details.
+The Resource Identification (RRID) Initiative collaborates with BioSamples to identify pancreatic islets used by researchers in the `Integrated Islet Distribution Program (IIDP) <https://iidp.coh.org/>`_. BioSamples participates in a limited capacity so IIDP samples can be identified as RRIDs. See the `RRID website <https://rrid.site/>`_ for details.
 
 What is the Bioschemas export?
 ------------------------------
 
-Bioschemas is an extension of schema.org for consistently structured information on websites and services. The BioSamples team leads the Bioschemas samples specification and adds Bioschemas export (JSON-LD) to all sample pages—see an example `here <https://www.ebi.ac.uk/biosamples/samples/>`_.
-BioSamples also embeds other Bioschemas entities in the HTML source—for example, the `DataCatalog entity <https://www.ebi.ac.uk/biosamples/docs>`_ and the `DataSet entity <https://www.ebi.ac.uk/biosamples/>`_.
+Bioschemas is an extension of schema.org for consistently structured information on websites and services. The BioSamples team leads the Bioschemas samples specification and adds Bioschemas export (JSON-LD) to all sample pages—see an example `here <https://www.ebi.ac.uk/biosamples/samples/SAMEA1243676>`_.
+BioSamples also embeds other Bioschemas entities in the HTML source—for example, the `DataCatalog entity <https://bioschemas.org/profiles/DataCatalog/0.3-RELEASE-2019_07_01>`_ and the `DataSet entity <https://bioschemas.org/profiles/Dataset/1.0-RELEASE>`_.
 
 How can I stay informed about BioSamples?
 -----------------------------------------
@@ -66,8 +68,8 @@ Ontologies are used to refine queries. Your query may match a synonym or a more 
 How will my personal data be used?
 ----------------------------------
 
-This website requires cookies and limited processing of personal data as outlined in the `Privacy Notice <https://www.ebi.ac.uk/about/terms-of-use>`_ and `Terms of Use <https://www.ebi.ac.uk/about/terms-of-use>`_.
-If you submit information to BioSamples, it will be handled in accordance with the `Submission Privacy Notice <https://www.ebi.ac.uk/data-protection/privacy-notice/biosamples-submission-privacy-notice>`_.
+This website requires cookies and limited processing of personal data as outlined in the EMBL-EBI `Terms of Use <https://www.ebi.ac.uk/about/terms-of-use>`_.
+If you submit information to BioSamples, it will be handled in accordance with the Terms of Use.
 
 I think some of the data is wrong. Can you fix it?
 --------------------------------------------------
@@ -77,7 +79,7 @@ Most data is submitted by third parties, often via other services, so BioSamples
 Where is the BioSamples source code?
 ------------------------------------
 
-BioSamples is open source. The code is published on `GitHub <https://github.com/EBIBioSamples/biosamples-frontend>`_ (see project organization there). Licensing information is available on the `licensing page <https://raw.githubusercontent.com/EBIBioSamples/biosamples-frontend/master/LICENSE>`_. For issues building a local instance, please open a pull request or email ``biosamples@ebi.ac.uk``.
+BioSamples is open source. The code is published on `GitHub <https://github.com/EBIBioSamples/biosamples-v4>`_ (see project organization there). Licensing information is available on the `licensing page <https://github.com/EBIBioSamples/biosamples-v4/blob/dev/LICENSE>`_. For issues building a local instance, please open a pull request or email ``biosamples@ebi.ac.uk``.
 
 How do I send my SampleTab files to BioSamples?
 -----------------------------------------------
@@ -99,19 +101,8 @@ IDs can be created well in advance of collection or submission to support cross-
 How to check if a sample has been updated using ETAG functionality
 -------------------------------------------------------------------
 
-Quick solution – Not scalable
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Let’s say that you want to monitor a bunch of samples in BioSamples and whenever a sample is updated you want to retrieve the new content into your system.
-
-One way of doing this is to have a list of accessions and, at a scheduled interval, retrieve the samples from BioSamples and check if the update date on the sample changed since the last time you retrieved the data. This method works just fine but is not very efficient as each time you need to download the entire sample content.
-
-Obviously this is not a big deal if you need to check one sample, but if the number increases to the order of thousands, this could be quite a slow process.
-
-A smarter solution
-~~~~~~~~~~~~~~~~~~
-
-In the new version of BioSamples we provide ETAG functionality. This feature provides a unique "fingerprint" of the sample that changes as soon as the sample itself changes or a curation to the sample is applied. Basically the ETAG is like a hash of the sample.
+If you would like to monitor a batch of samples in BioSamples, it is possible to do so via the ETAG functionality. This feature provides a unique "fingerprint" of the sample that changes as soon as the sample itself changes or a curation to the sample is applied. Basically the ETAG is like a hash of the sample.
 
 With the ETAG you can submit a conditional request to BioSamples using an ``If-None-Match`` header (see `MDN reference <https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match>`_ for details).
 

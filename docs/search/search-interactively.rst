@@ -22,22 +22,12 @@ Examples:
    cell* AND NOT cancer
 
 
-Advanced search
+Search
 ---------------
 
 You can also search on **specific attributes** and filter by accession, dates, or metadata values.
-Queries follow the EBISearch syntax: https://www.ebi.ac.uk/ebisearch/documentation
-
-
-Faceted search
---------------
-
-Results can be filtered further using **facets** (e.g. by organism, project, or date).
+Results can be narrowed down further using **filters** (e.g. by organism, project, or date).
 Facets are shown on the left side of the BioSamples web interface and can also be used via the REST API.
-
-.. code-block:: bash
-
-   curl "https://www.ebi.ac.uk/biosamples/samples?text=liver&filter=organism:Homo sapiens"
 
 Tips
 ----

@@ -4,23 +4,23 @@ How to curate a sample in BioSamples
 User requirements
 -----------------
 
-I want to improve the quality of metadata for a sample in BioSamples, but I’m not the owner of the sample.
+I want to improve the quality of metadata for a sample in BioSamples, but I am not the owner of the sample.
 
 Requirements
 ------------
 
-You need a Webin submission account to proceed with this recipe. Please refer to our Authentication Guide for more information.
+You need a Webin submission account to proceed with this recipe. Please refer to our `Authentication Guide <../../authentication.html>`_ for more information.
 
 Steps
 -----
 
-1. **Get the JSON Web Token from the Webin Authentication Service**
+1. **Get the JSON Web Token from the `Webin Authentication Service <https://www.ebi.ac.uk/ena/submit/webin/auth/swagger-ui/index.html>`_ **
 
-   Start by obtaining your Webin authentication JWT to use in your application. Please refer to our Authentication Guide for details.
+   Start by obtaining your Webin authentication JWT to use in your application. Please refer to our `Authentication Guide <../../authentication.html>`_ for details.
 
 2. **Produce a BioSamples curation object in JSON format**
 
-   To update a field in a sample without being the sample owner, create a BioSamples curation object. Populate the `attributesPre` field with the current value and the `attributesPost` field with the new value.   See :ref:`Submit curation object` for an example POST request.
+   To update a field in a sample if you are not the sample owner, create a BioSamples curation object. Populate the `attributesPre` field with the current value and the `attributesPost` field with the new value.   See :ref:`Submit curation object` for an example POST request.
 
 
 Example sample (simplified):
@@ -132,7 +132,7 @@ Example sample (simplified):
 Templates
 ---------
 
-### Attribute and external reference curation template
+Attribute and external reference curation template
 
   .. code-block:: json
 

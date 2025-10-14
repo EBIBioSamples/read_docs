@@ -1,7 +1,7 @@
 How to Search BioSamples Programmatically
 =========================================
 
-You can use BioSamples filters to restrict resources based on their characteristics. Filters are generally composed of a `type`, a `field`, and a `value` combined as `<type>:<field>:<value>`. If the `value` is omitted, the filter checks for the existence of the provided field. Filters work with both sample and accession search endpoints.
+You can use BioSamples filters to restrict the search based on the sample characteristics. Filters are generally composed of a `type`, a `field`, and a `value` combined as `<type>:<field>:<value>`. If the `value` is omitted, the filter checks for the existence of the provided field. Filters work with both sample and accession search endpoints.
 
 Type of Filter
 --------------
@@ -29,8 +29,8 @@ Filter based on sample attributes and their values.
 
 **Examples**
 
-- `filter=attr:Organism:Homo+Sapiens`
-- `filter=attr:organism+part:liver`
+- `filter=attr:Organism:Homo+Sapiens <https://www.ebi.ac.uk/biosamples/samples?filter=attr%3Aorganism%3AHomo+sapiens>`_
+- `filter=attr:organism+part:liver <https://www.ebi.ac.uk/biosamples/samples?filter=attr%3Aorganism+part%3Aliver>`_
 
 ---
 
@@ -58,9 +58,9 @@ Filter based on the sample's creation or release date over a time range.
 
 **Examples**
 
-- `filter=dt:release:from=2014-01-01T20:30:00until=2015-01-01`
-- `filter=dt:update:from=2018-01-01`
-- `filter=dt:update:until=2016-12-31T20:30:00`
+- `filter=dt:release:from=2014-01-01until=2015-01-01 <https://www.ebi.ac.uk/biosamples/samples?text=&filter=dt%3Arelease%3Afrom%3D2014-01-01until%3D2015-01-01>`_
+- `filter=dt:update:from=2018-01-01 <<https://www.ebi.ac.uk/biosamples/samples?text=&filter=dt%3Arelease%3Afrom%3D2018-01-01>`_
+- `filter=dt:update:until=2016-12-31T20:30:00 <<https://www.ebi.ac.uk/biosamples/samples?text=&filter=dt%3Arelease%3Auntil%3D2016-12-31>`_
 
 ---
 
@@ -88,9 +88,9 @@ Filter by BioSamples accession.
 
 **Examples**
 
-- `filter=acc:SAMEA341514`
-- `filter=acc:SAMN.*` *(Only NCBI samples)*
-- `filter=acc:SAMD.*` *(Only DDBJ accessions)*
+- `filter=acc:SAMEA341514 <https://www.ebi.ac.uk/biosamples/samples?filter=acc%3ASAMEA341514>`_
+- `filter=acc:SAMN.* <https://www.ebi.ac.uk/biosamples/samples?filter=acc%3ASAMN.*>`_ *(Only NCBI samples)*
+- `filter=acc:SAMD.* <https://www.ebi.ac.uk/biosamples/samples?filter=acc%3ASAMD.*>`_ *(Only DDBJ accessions)*
 
 ---
 

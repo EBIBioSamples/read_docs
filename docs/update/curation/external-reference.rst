@@ -4,12 +4,12 @@ How to add an external reference to a sample using the JSON API
 User requirements
 -----------------
 
-I want to link a BioSamples accession with an external repository or resource even if I’m not the owner of the sample.
+I want to link a BioSamples accession to an external repository or resource but I am not the owner of the sample.
 
 Requirements
 ------------
 
-You need a Webin submission account to proceed with this recipe. Please refer to our Authentication Guide for more information.
+You need a Webin submission account to proceed with this recipe. Please refer to our `Authentication Guide <../../submit/general-guide/registration.html>`_ for more information.
 
 Steps
 -----
@@ -20,9 +20,9 @@ Steps
 
 2. **Produce a BioSamples curation object in JSON format**
 
-   To add an external reference to a sample without being its owner, create a BioSamples curation object. Since you’re only adding link(s), you can leave the `attributesPre`, `attributesPost`, and `externalReferencesPre` fields empty, and add your new link(s) in the `externalReferencesPost` field.
+   To add an external reference to a sample without being its owner, create a BioSamples curation object. Since you are only adding link(s), you can leave the `attributesPre`, `attributesPost`, and `externalReferencesPre` fields empty, and add your new link(s) in the `externalReferencesPost` field.
 
-   For example, suppose you have a MGnify sample `ERS645361` that you want to link to the BioSamples entry `SAMEA3219512`:
+   For example, if you have a MGnify sample `ERS645361` and you want to link it to the BioSamples entry `SAMEA3219512`:
 
    .. code-block:: json
 
@@ -64,12 +64,12 @@ Steps
              }
            }'
 
-   If the response returns a successful status (2xx), you will see the new link available on the sample’s page (e.g. at https://www.ebi.ac.uk/biosamples/samples/SAMEA3219152).
+   If the response returns a successful status, you will see the new link available on the sample’s page (e.g. at https://www.ebi.ac.uk/biosamples/samples/SAMEA3219152).
 
 Templates
 ---------
 
-### New external reference curation template
+New external reference curation template
 
 .. code-block:: json
 

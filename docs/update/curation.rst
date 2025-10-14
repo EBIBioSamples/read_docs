@@ -1,12 +1,12 @@
 BioSamples Curation Guide
 ==========================
 
-BioSamples applies both automatic and manual curation to enhance the findability and standardization of sample metadata. Curation is applied as layered records, preserving original data while providing cleaned, enriched views.
-
 Sample curation
 ---------------
 
-BioSamples performs automatic curation and supports manual curation to improve sample data findability. It removes missing values, performs ontology annotation and text curation through automatic curation. BioSamples also imports curation from other services. The curation rules are described below and updated periodically. The curation records are stored separately along with the original data; BioSamples applies curation as layered overlays on the original dataset.
+BioSamples performs automatic curation and supports manual curation to improve sample data findability and standardization of sample metadata. Curation is applied as layers on top of records, preserving original data while providing cleaned, enriched views.
+It removes missing values, performs ontology annotation and text curation through automatic curation. BioSamples also imports curation from other services. The curation rules are described below and updated periodically. The curation records are stored separately along with the original data;
+
 
 Automatic curation, remove missing values
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -39,7 +39,7 @@ Missing values—such as ``"N/A"`` or ``"none"``—are automatically removed upo
 Automatic curation, ontology annotations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Automatic ontology annotation uses `**ZOOMA** <https://www.ebi.ac.uk/spot/zooma/>`_ to map sample attribute texts to ontology term URIs—only high-confidence mappings are accepted. If the user already provided ontology terms, those fields are skipped.
+Automatic ontology annotation uses `ZOOMA <https://www.ebi.ac.uk/spot/zooma/>`_ to map sample attribute texts to ontology term URIs - only high-confidence mappings are accepted. If the user already provided ontology terms, those fields are skipped.
 
 **Example — submitted data:**
 
@@ -130,10 +130,10 @@ Text curation standardizes attribute names (for example, removes underscores, co
 
    Only the attribute names are cleaned; the values remain exactly as submitted.
 
-Manual curation
+User supplied curation
 ---------------
 
-Users may submit manual curation records to correct or enhance attributes post-submission. These are stored and applied alongside automatic curation layers.
+Users who are not the original submitter may submit an additional curation layer to correct or enhance attributes in existing samples. These are stored and applied alongside automatic curation layers.
 
 How to find all curation records?
 ---------------------------------
