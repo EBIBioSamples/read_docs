@@ -11,3 +11,8 @@
     background-color: #017c83;
 }
 
+
+.wy-menu-vertical header, .wy-menu-vertical p.caption
+{
+    color: #017c83;
+}
