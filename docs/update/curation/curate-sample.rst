@@ -14,7 +14,7 @@ You need a Webin submission account to proceed with this recipe. Please refer to
 Steps
 -----
 
-1. **Get the JSON Web Token from the `Webin Authentication Service <https://www.ebi.ac.uk/ena/submit/webin/auth/swagger-ui/index.html>`_ **
+1. Get the JSON Web Token from the `Webin Authentication Service <https://www.ebi.ac.uk/ena/submit/webin/auth/swagger-ui/index.html>`_
 
    Start by obtaining your Webin authentication JWT to use in your application. Please refer to our `Authentication Guide <../../authentication.html>`_ for details.
 

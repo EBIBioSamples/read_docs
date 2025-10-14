@@ -131,7 +131,7 @@ Text curation standardizes attribute names (for example, removes underscores, co
    Only the attribute names are cleaned; the values remain exactly as submitted.
 
 User supplied curation
----------------
+----------------------
 
 Users who are not the original submitter may submit an additional curation layer to correct or enhance attributes in existing samples. These are stored and applied alongside automatic curation layers.
 

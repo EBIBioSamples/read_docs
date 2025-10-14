@@ -59,8 +59,8 @@ Filter based on the sample's creation or release date over a time range.
 **Examples**
 
 - `filter=dt:release:from=2014-01-01until=2015-01-01 <https://www.ebi.ac.uk/biosamples/samples?text=&filter=dt%3Arelease%3Afrom%3D2014-01-01until%3D2015-01-01>`_
-- `filter=dt:update:from=2018-01-01 <<https://www.ebi.ac.uk/biosamples/samples?text=&filter=dt%3Arelease%3Afrom%3D2018-01-01>`_
-- `filter=dt:update:until=2016-12-31T20:30:00 <<https://www.ebi.ac.uk/biosamples/samples?text=&filter=dt%3Arelease%3Auntil%3D2016-12-31>`_
+- `filter=dt:update:from=2018-01-01 <https://www.ebi.ac.uk/biosamples/samples?text=&filter=dt%3Arelease%3Afrom%3D2018-01-01>`_
+- `filter=dt:update:until=2016-12-31T20:30:00 <https://www.ebi.ac.uk/biosamples/samples?text=&filter=dt%3Arelease%3Auntil%3D2016-12-31>`_
 
 ---
 
