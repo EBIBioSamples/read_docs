@@ -88,9 +88,9 @@ Filter by BioSamples accession.
 
 **Examples**
 
-- `filter=acc:SAMEA341514
-- `filter=acc:SAMN.* *(Only NCBI samples)*
-- `filter=acc:SAMD.* *(Only DDBJ accessions)*
+- `filter=acc:SAMEA341514`
+- `filter=acc:SAMN.* *(Only NCBI samples)*`
+- `filter=acc:SAMD.* *(Only DDBJ accessions)*`
 
 ---
 
