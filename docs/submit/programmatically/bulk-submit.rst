@@ -1,5 +1,7 @@
+Bulk-submit
+===========
 How to programmatically submit samples in bulk
-==============================================
+----------------------------------------------
 
 The bulk-submit/get-receipt capability allows submitters to send multiple sample metadata records together
 (in one bulk operation) and then retrieve a “receipt” that reports the outcome (success/failure) and any
