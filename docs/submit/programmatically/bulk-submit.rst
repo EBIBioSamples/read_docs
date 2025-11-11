@@ -1,9 +1,9 @@
-Bulk-submit
-===========
+Bulk sample registration
+========================
 How to programmatically submit samples in bulk
 ----------------------------------------------
 
-The bulk-submit/get-receipt capability allows submitters to send multiple sample metadata records together
+The bulk-submit/get-receipt API endpoint allows submitters to send multiple sample metadata records together
 (in one bulk operation) and then retrieve a “receipt” that reports the outcome (success/failure) and any
 assigned accessions.
 In the context of BioSamples this supports high-volume submissions rather than individual sample POSTs.
@@ -12,7 +12,7 @@ In the context of BioSamples this supports high-volume submissions rather than i
 Important details & caveats (especially for microbiome/metagenome use)
 ----------------------------------------------------------------------
 
-- **Validation & checklists:** For bulk uploads via files, you’re asked to select a “checklist” for validation (e.g., biosamples-minimal). The system checks required fields such as Characteristics[Organism].
+- **Validation & checklists:** For bulk uploads via files, you’re asked to select a “checklist” for validation. The system checks required fields such as Characteristics[Organism].
 
 - **Chunking and submission size:** The bulk route may impose limits (e.g., number of samples per submission, file size). In the cookbook: >200 samples or >20 kB often triggers queue rather than instant processing.
 
