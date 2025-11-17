@@ -14,68 +14,63 @@ Example curl commands
 This is an example of a curl command request and reponse to the bulk-submit-get-receipt API endpoint.
 
 .. code-block:: http
-
-curl 'https://wwwdev.ebi.ac.uk/biosamples/v2/samples/bulk-submit-get-receipt' -i -X POST -H "Content-Type: application/json;charset=UTF-8" -H "Accept: application/hal+json" -H "Authorization: Bearer $TOKEN" -d '[{
-  "name" : "FakeSample1",
-  "update" : "2012-03-19T13:56:40.720567Z",
-  "release" : "2020-03-10T13:56:40.720559Z",
-  "webinSubmissionAccountId" : "Webin-59287",
-  "characteristics" : {
-    "description" : [ {
-      "text" : "fake sample"
-    } ],
-    "organism" : [ {
-      "text" : "Homo sapiens",
-      "ontologyTerms" : [ "http://purl.obolibrary.org/obo/NCBITaxon_9606" ]
-    } ]
-  }
-}]
+    curl 'https://wwwdev.ebi.ac.uk/biosamples/v2/samples/bulk-submit-get-receipt' -i -X POST -H "Content-Type: application/json;charset=UTF-8" -H "Accept: application/hal+json" -H "Authorization: Bearer $TOKEN" -d '[{
+      "name" : "FakeSample1",
+      "update" : "2012-03-19T13:56:40.720567Z",
+      "release" : "2020-03-10T13:56:40.720559Z",
+      "webinSubmissionAccountId" : "Webin-59287",
+      "characteristics" : {
+        "description" : [ {
+          "text" : "fake sample"
+        } ],
+        "organism" : [ {
+          "text" : "Homo sapiens",
+          "ontologyTerms" : [ "http://purl.obolibrary.org/obo/NCBITaxon_9606" ]
+        } ]
+      }
+    }]
 
 
 .. code-block::
 
-{
-    "samples": [
-        {
-            "name": "FakeSample1",
-            "accession": "SAMEA131847325",
-            "sraAccession": "ERS32039383",
-            "webinSubmissionAccountId": "Webin-59287",
-            "taxId": 9606,
-            "status": "PUBLIC",
-            "release": "2020-03-10T13:56:40.720559Z",
-            "update": "2025-11-14T12:12:30.396351204Z",
-            "submitted": "2025-11-14T12:12:30.396350160Z",
-            "characteristics": {
-                "SRA accession": [
-                    {
-                        "text": "ERS32039383"
-                    }
-                ],
-                "description": [
-                    {
-                        "text": "fake sample"
-                    }
-                ],
-                "organism": [
-                    {
-                        "text": "Homo sapiens",
-                        "ontologyTerms": [
-                            "http://purl.obolibrary.org/obo/NCBITaxon_9606"
-                        ]
-                    }
-                ]
-            },
-            "submittedVia": "JSON_API",
-            "create": "2025-11-14T12:12:30.396348732Z"
-        }
-    ],
-    "errors": []
-}
-
-
-
-
+    {
+        "samples": [
+            {
+                "name": "FakeSample1",
+                "accession": "SAMEA131847325",
+                "sraAccession": "ERS32039383",
+                "webinSubmissionAccountId": "Webin-59287",
+                "taxId": 9606,
+                "status": "PUBLIC",
+                "release": "2020-03-10T13:56:40.720559Z",
+                "update": "2025-11-14T12:12:30.396351204Z",
+                "submitted": "2025-11-14T12:12:30.396350160Z",
+                "characteristics": {
+                    "SRA accession": [
+                        {
+                            "text": "ERS32039383"
+                        }
+                    ],
+                    "description": [
+                        {
+                            "text": "fake sample"
+                        }
+                    ],
+                    "organism": [
+                        {
+                            "text": "Homo sapiens",
+                            "ontologyTerms": [
+                                "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+                            ]
+                        }
+                    ]
+                },
+                "submittedVia": "JSON_API",
+                "create": "2025-11-14T12:12:30.396348732Z"
+            }
+        ],
+        "errors": []
+    }
 
 
 
