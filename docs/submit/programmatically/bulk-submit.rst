@@ -13,7 +13,7 @@ Example curl commands
 ---------------------
 This is an example of a curl command request and reponse to the bulk-submit-get-receipt API endpoint.
 
-.. code-block:: json
+.. code-block:: bash
 
     curl 'https://wwwdev.ebi.ac.uk/biosamples/v2/samples/bulk-submit-get-receipt' \
         -i -X POST
