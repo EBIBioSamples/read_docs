@@ -31,7 +31,7 @@ This is an example of a curl command request and reponse to the bulk-submit-get-
     }]
 
 
-.. code-block::
+.. code-block:: json
 
     {
         "samples": [
