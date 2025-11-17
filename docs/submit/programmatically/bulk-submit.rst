@@ -13,23 +13,28 @@ Example curl commands
 ---------------------
 This is an example of a curl command request and reponse to the bulk-submit-get-receipt API endpoint.
 
-.. code-block:: bash
+.. code-block:: json
 
-    curl 'https://wwwdev.ebi.ac.uk/biosamples/v2/samples/bulk-submit-get-receipt' -i -X POST -H "Content-Type: application/json;charset=UTF-8" -H "Accept: application/hal+json" -H "Authorization: Bearer $TOKEN" -d '[{
-      "name" : "FakeSample1",
-      "update" : "2012-03-19T13:56:40.720567Z",
-      "release" : "2020-03-10T13:56:40.720559Z",
-      "webinSubmissionAccountId" : "Webin-59287",
-      "characteristics" : {
-        "description" : [ {
-          "text" : "fake sample"
-        } ],
-        "organism" : [ {
-          "text" : "Homo sapiens",
-          "ontologyTerms" : [ "http://purl.obolibrary.org/obo/NCBITaxon_9606" ]
-        } ]
-      }
-    }]
+    curl 'https://wwwdev.ebi.ac.uk/biosamples/v2/samples/bulk-submit-get-receipt' \
+        -i -X POST
+        -H "Content-Type: application/json;charset=UTF-8"
+        -H "Accept: application/hal+json"
+        -H "Authorization: Bearer $TOKEN"
+        -d '[{
+            "name" : "FakeSample1",
+            "update" : "2012-03-19T13:56:40.720567Z",
+            "release" : "2020-03-10T13:56:40.720559Z",
+            "webinSubmissionAccountId" : "Webin-59287",
+            "characteristics" : {
+            "description" : [ {
+                "text" : "fake sample"
+            } ],
+            "organism" : [ {
+                "text" : "Homo sapiens",
+                "ontologyTerms" : [ "http://purl.obolibrary.org/obo/NCBITaxon_9606" ]
+            } ]
+          }
+        }]
 
 
 .. code-block:: json
