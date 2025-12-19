@@ -40,5 +40,6 @@ Please use the links to find instructions specific to your needs.
     :maxdepth: 1
 
     FAQ/FAQ
+    FAQ/cookbook
     release-notes
 
