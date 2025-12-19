@@ -3,12 +3,13 @@ BioSamples Cookbook
 
 If you cannot find the answer to your question in this FAQ or the help pages, please email us at ``biosamples@ebi.ac.uk``.
 
-
-
 Contents
 --------
-- `How to check if a sample has been updated using ETAG functionality`_
 - `How to bulk upload samples to BioSamples using the drag’n’drop uploader <../submit/interactively/step-by-step.html>`_
+- `How to check if a sample has been updated using ETAG functionality`_
+- `How to curate a sample in BioSamples <../update/curation/curate-sample.html>`_
+- `How to add an external reference to a sample using the JSON API <../update/curation/external-reference.html>`_
+- `How to retrieve sample without any curations or only specified curations <../update/curation/retrieve-sample.html>`_
 
 
 How to check if a sample has been updated using ETAG functionality
