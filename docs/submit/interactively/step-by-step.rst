@@ -171,7 +171,7 @@ After upload is successful, the uploader will send back a file with the sample m
 
 
 
-.. list-table:: Example output file
+.. list-table:: Table 3. Example Output File
    :header-rows: 1
    :widths: 15 15 15 20 15 30 20 30 30 15
 

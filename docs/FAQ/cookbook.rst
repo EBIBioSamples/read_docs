@@ -8,6 +8,7 @@ If you cannot find the answer to your question in this FAQ or the help pages, pl
 Contents
 --------
 - `How to check if a sample has been updated using ETAG functionality`_
+- `How to bulk upload samples to BioSamples using the drag’n’drop uploader <../submit/interactively/step-by-step.html>`_
 
 
 How to check if a sample has been updated using ETAG functionality
