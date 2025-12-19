@@ -135,6 +135,79 @@ Although ISA-Tab is specifically for Investigation, Study and Assay data, we hav
      - Optional (new) / Mandatory (updates)
 
 
+.. list-table:: Table 2. Example File
+   :header-rows: 1
+   :widths: 15 15 15 20 15 30 20 30 30
+
+   * - Source Name
+     - Sample Name
+     - Release Date
+     - Characteristics[Organism]
+     - Term Source REF
+     - Term Accession Number
+     - Comment[bsd_relationship:same_as]
+     - Comment[external DB REF]
+     - Comment[submission_contact:email]
+   * - source_name
+     - name_1
+     - 2021-01-01
+     - Homo sapiens
+     - NCBITAXON
+     - http://purl.obolibrary.org/obo/NCBITaxon_9606
+     - name_2
+     - https://www.ebi.ac.uk/ena/browser/view/SAMEA100000
+     - dgupta@ebi.ac.uk
+   * - source_name
+     - name_2
+     - 2021-01-01
+     - Homo sapiens
+     - NCBITAXON
+     - http://purl.obolibrary.org/obo/NCBITaxon_9606
+     - name_1
+     - https://www.ebi.ac.uk/ena/browser/view/SAMEA100001
+     - dgupta@ebi.ac.uk
+
+After upload is successful, the uploader will send back a file with the sample metadata uploaded and the accessions. The accessions are defined by the Sample Identifier field in the TSV post upload.
+
+
+
+.. list-table:: Example output file
+   :header-rows: 1
+   :widths: 15 15 15 20 15 30 20 30 30 15
+
+   * - Source Name
+     - Sample Name
+     - Release Date
+     - Characteristics[Organism]
+     - Term Source REF
+     - Term Accession Number
+     - Comment[bsd_relationship:same_as]
+     - Comment[external DB REF]
+     - Comment[submission_contact:email]
+     - Sample Identifier
+   * - source_name
+     - name_1
+     - 2021-01-01
+     - Homo sapiens
+     - NCBITAXON
+     - http://purl.obolibrary.org/obo/NCBITaxon_9606
+     - name_2
+     - https://www.ebi.ac.uk/ena/browser/view/SAMEA100000
+     - dgupta@ebi.ac.uk
+     - SAMEA100033
+   * - source_name
+     - name_2
+     - 2021-01-01
+     - Homo sapiens
+     - NCBITAXON
+     - http://purl.obolibrary.org/obo/NCBITaxon_9606
+     - name_1
+     - https://www.ebi.ac.uk/ena/browser/view/SAMEA100001
+     - dgupta@ebi.ac.uk
+     - SAMEA100034
+
+
+
 
 Step 4: Submit the Completed Spreadsheet
 -----------------------------------------
