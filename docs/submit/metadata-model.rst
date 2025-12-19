@@ -71,6 +71,9 @@ BioSamples currently supports four types of sample relationships
      - ``child of (reverse)``
      - *Sample A is the child of Sample B. E.g.*
         - *Patient A is the child of Patient B*
+   * - ``negative control of``
+     - ``negative control of (reverse)``
+     - *Sample A is the negative control of Sample B. e.g.*
 
 
 
