@@ -33,6 +33,8 @@ Sample Relationships in BioSamples
 Sample relationships describe the relationship between two BioSamples. The relationships can be submission, technical, or biological relationships. It links different samples together and supports relationship-based graph searches.
 The sample relationship is submitted to BioSamples by providing the source, type, and target. Below is an example of sample relationships in BioSamples.
 
+Please note that the direction of relationships should always start from the source to the target. For example, if adding a sample relationship to a sample with accession SAME123456, the 'source' should always be SAME123456.
+
 .. code-block:: json
 
    "relationships" : [ {

@@ -603,7 +603,7 @@ PUT sample with relationships
 
    {
      "name": "FakeSample",
-     "accession": "SAMEA12345",
+     "accession": "SAMEA123456",
      "webinSubmissionAccountId": "Webin-12345",
      "status": "PUBLIC",
      "release": "2025-07-30T08:54:06.713767735Z",
